@@ -176,7 +176,7 @@ case = {
     "devices": json_devices,
 }
 
-outpath = here / "europe.json"
+outpath = here / "europe.case.json"
 outpath.write_text(json.dumps(case, indent=2), encoding="utf-8")
 
 print(f"Wrote {len(json_buses)} buses, {len(json_devices)} devices "
