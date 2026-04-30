@@ -26,3 +26,11 @@
 *.JPG filter=lfs diff=lfs merge=lfs -text
 *.docx filter=lfs diff=lfs merge=lfs -text
 *.DOCX filter=lfs diff=lfs merge=lfs -text
+*.lat filter=lfs diff=lfs merge=lfs -text
+*.LAT filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.JSON filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.CSV filter=lfs diff=lfs merge=lfs -text
+*.html filter=lfs diff=lfs merge=lfs -text
+*.HTML filter=lfs diff=lfs merge=lfs -text
