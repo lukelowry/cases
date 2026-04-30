@@ -10,6 +10,7 @@
 | Extension | Type | Count |
 |-----------|------|-------|
 | `.lat` | Lattice Case Format | 22 |
+| `.case.json` | GridKit Case Data | 9 |
 | `.raw` | PSS/E Power Flow Data | 19 |
 | `.epc` | PSLF Powerflow Case | 14 |
 | `.pwb` | PowerWorld Binary Case | 23 |
@@ -23,7 +24,6 @@
 | `.bsg` | PowerWorld Base Generation | 2 |
 | `.tsb` | PowerWorld Transient Stability | 2 |
 | `.m` | MATPOWER / MATLAB Case | 30 |
-| `.json` | JSON Data | 9 |
 | `.csv` | CSV Data | 12 |
 | `.xlsx` | Excel Spreadsheet | 4 |
 | `.py` | Python Script | 4 |
@@ -60,6 +60,18 @@
 - `Synthetic/Texas/2k/Texas2k_series25_case1_summerpeak.lat`
 - `Synthetic/Texas/7k/Texas7k_20210804.lat`
 - `Synthetic/USA/SyntheticUSA.lat`
+
+### `.case.json` — GridKit Case Data
+
+- `IEEE/NEISO/IEEE 39 bus.case.json`
+- `IEEE/NEISO/Variations/SimpleDynamics.case.json`
+- `Other/Europe/V1/europe.case.json`
+- `Other/Europe/V2/europe.case.json`
+- `Other/Two Area/Variations/SimpleDynamics.case.json`
+- `Other/WECC 240/Variations/SimpleDynamics.case.json`
+- `Synthetic/ACTIVSg/ACTIVSg200/ACTIVSg200.case.json`
+- `Synthetic/ACTIVSg/ACTIVSg2000/Variations/SimpleDynamics.case.json`
+- `Synthetic/Hawaii/Variations/SimpleDynamics.case.json`
 
 ### `.raw` — PSS/E Power Flow Data
 
@@ -278,18 +290,6 @@
 - `Synthetic/Texas/2k/Texas2k_series25_case1_summerpeak.m`
 - `Synthetic/Texas/7k/Texas7k_20210804.m`
 - `Synthetic/USA/case_SyntheticUSA.m`
-
-### `.json` — JSON Data
-
-- `IEEE/NEISO/IEEE 39 bus.json`
-- `IEEE/NEISO/Variations/SimpleDynamics.json`
-- `Other/Europe/V1/europe.json`
-- `Other/Europe/V2/europe.json`
-- `Other/Two Area/Variations/SimpleDynamics.json`
-- `Other/WECC 240/Variations/SimpleDynamics.json`
-- `Synthetic/ACTIVSg/ACTIVSg200/ACTIVSg200.json`
-- `Synthetic/ACTIVSg/ACTIVSg2000/Variations/SimpleDynamics.json`
-- `Synthetic/Hawaii/Variations/SimpleDynamics.json`
 
 ### `.csv` — CSV Data
 

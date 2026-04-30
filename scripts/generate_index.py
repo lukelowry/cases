@@ -15,6 +15,7 @@ SKIP_DIRS = {".git", "scripts", "__pycache__"}
 
 DESCRIPTIONS = {
     ".lat": "Lattice Case Format",
+    ".case.json": "GridKit Case Data",
     ".raw": "PSS/E Power Flow Data",
     ".epc": "PSLF Powerflow Case",
     ".pwb": "PowerWorld Binary Case",
@@ -46,7 +47,7 @@ DESCRIPTIONS = {
 # Extensions not listed here are appended alphabetically at the end.
 SECTION_ORDER = [
     # Power flow
-    ".lat", ".raw", ".epc", ".pwb", ".pwd",
+    ".lat", ".case.json", ".raw", ".epc", ".pwb", ".pwd",
     # Dynamics
     ".dyr", ".dyd",
     # Auxiliary / supplemental
@@ -70,11 +71,12 @@ def collect_files():
             full = os.path.join(dirpath, fname)
             rel = os.path.relpath(full, REPO_ROOT).replace("\\", "/")
 
-            _, ext = os.path.splitext(fname)
-            if ext:
-                key = ext.lower()
+            lower = fname.lower()
+            if lower.endswith(".case.json"):
+                key = ".case.json"
             else:
-                key = "(no extension)"
+                _, ext = os.path.splitext(fname)
+                key = ext.lower() if ext else "(no extension)"
 
             groups[key].append(rel)
 

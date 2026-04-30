@@ -16,6 +16,7 @@ A collection of power system simulation cases for use with PowerWorld Simulator,
 | `.epc` | PSLF powerflow case |
 | `.pwb` | PowerWorld binary case |
 | `.pwd` | PowerWorld oneline display |
+| `.case.json` | GridKit-format case data (graph schema) |
 | `.dyr` | PSS/E dynamic model data |
 | `.dyd` | PSLF dynamic model data |
 | `.aux` | PowerWorld auxiliary file |
