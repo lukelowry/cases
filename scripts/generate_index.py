@@ -14,6 +14,7 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SKIP_DIRS = {".git", "scripts", "__pycache__"}
 
 DESCRIPTIONS = {
+    ".lat": "Lattice Case Format",
     ".raw": "PSS/E Power Flow Data",
     ".epc": "PSLF Powerflow Case",
     ".pwb": "PowerWorld Binary Case",
@@ -27,8 +28,10 @@ DESCRIPTIONS = {
     ".bsg": "PowerWorld Base Generation",
     ".tsb": "PowerWorld Transient Stability",
     ".m": "MATPOWER / MATLAB Case",
+    ".json": "JSON Data",
     ".csv": "CSV Data",
     ".xlsx": "Excel Spreadsheet",
+    ".py": "Python Script",
     ".txt": "Text File",
     ".md": "Markdown",
     ".jpg": "Image",
@@ -43,13 +46,13 @@ DESCRIPTIONS = {
 # Extensions not listed here are appended alphabetically at the end.
 SECTION_ORDER = [
     # Power flow
-    ".raw", ".epc", ".pwb", ".pwd",
+    ".lat", ".raw", ".epc", ".pwb", ".pwd",
     # Dynamics
     ".dyr", ".dyd",
     # Auxiliary / supplemental
     ".aux", ".con", ".gic", ".idv", ".bsg", ".tsb",
     # Scripts / data
-    ".m", ".csv", ".xlsx",
+    ".m", ".json", ".csv", ".xlsx", ".py",
     # Docs / other
     ".txt", ".md", ".jpg", ".docx", ".zip", ".ini", ".rev",
 ]
