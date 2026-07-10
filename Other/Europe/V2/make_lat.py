@@ -35,12 +35,15 @@ def parse_waypoints(raw_line, bus0_pos, bus1_pos):
     interior = pairs[1:-1]
     if not interior:
         return ""
-    # Check if LINESTRING runs opposite to bus0->bus1 direction
+    # Orient interior to run bus0->bus1. Compare both LINESTRING endpoints so
+    # a single ambiguous end cannot flip the line.
     if len(pairs) >= 2 and bus0_pos and bus1_pos:
-        ls_start = pairs[0]
-        d_start_b0 = (ls_start[0] - bus0_pos[0])**2 + (ls_start[1] - bus0_pos[1])**2
-        d_start_b1 = (ls_start[0] - bus1_pos[0])**2 + (ls_start[1] - bus1_pos[1])**2
-        if d_start_b1 < d_start_b0:
+        ls_start, ls_end = pairs[0], pairs[-1]
+        fwd = ((ls_start[0] - bus0_pos[0])**2 + (ls_start[1] - bus0_pos[1])**2
+               + (ls_end[0] - bus1_pos[0])**2 + (ls_end[1] - bus1_pos[1])**2)
+        rev = ((ls_start[0] - bus1_pos[0])**2 + (ls_start[1] - bus1_pos[1])**2
+               + (ls_end[0] - bus0_pos[0])**2 + (ls_end[1] - bus0_pos[1])**2)
+        if rev < fwd:
             interior = interior[::-1]
     flat = []
     for lon, lat in interior:
