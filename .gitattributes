@@ -1,4 +1,4 @@
-# All case data is stored in Git LFS.
+# Case data is stored in Git LFS, except .case.json, which is plain text.
 # Extensions are lowercase by repository convention (see README.md).
 # If a file with an uppercase extension is ever added, rename it to
 # lowercase rather than adding an uppercase pattern here.
@@ -16,7 +16,6 @@
 *.xlsx filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.docx filter=lfs diff=lfs merge=lfs -text
-*.lat filter=lfs diff=lfs merge=lfs -text
-*.json filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.html filter=lfs diff=lfs merge=lfs -text
+*.case.json text eol=lf

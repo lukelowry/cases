@@ -1,3 +1,7913 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6c6c031e8fd2d798413ab3805ac79494bec3957f9048610f5bb14eea9dcb3c3d
-size 200950
+{
+  "header": {
+    "format_version": 0.2,
+    "format_revision": 0,
+    "case_name": "UIUC150",
+    "case_description": "",
+    "case_comments": ""
+  },
+  "params": {
+    "freq_base": 60.0,
+    "va_base": 100000000.0
+  },
+  "buses": [
+    {
+      "number": 1,
+      "class": "Bus",
+      "name": "Johnsonville_g4",
+      "init": {
+        "Vr": 1.0399999618530273,
+        "Vi": 0.0
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.02816018,
+        "longitude": -87.98583341
+      }
+    },
+    {
+      "number": 2,
+      "class": "Bus",
+      "name": "GOODLETTSVILLE_37072_230.0",
+      "init": {
+        "Vr": 0.9746166656121399,
+        "Vi": -0.23079180535775173
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.4361804304,
+        "longitude": -86.840794727
+      }
+    },
+    {
+      "number": 3,
+      "class": "Bus",
+      "name": "LEBANON_37087_230.0",
+      "init": {
+        "Vr": 0.9884050952644856,
+        "Vi": -0.21507807779347898
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.2232990848,
+        "longitude": -86.1934943017
+      }
+    },
+    {
+      "number": 4,
+      "class": "Bus",
+      "name": "ANTIOCH_37013_230.0",
+      "init": {
+        "Vr": 0.9797833362515178,
+        "Vi": -0.23692755788441205
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.052237,
+        "longitude": -86.632503
+      }
+    },
+    {
+      "number": 5,
+      "class": "Bus",
+      "name": "BRENTWOOD_37027_230.0",
+      "init": {
+        "Vr": 0.9616414809486732,
+        "Vi": -0.26609753407866527
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.9625068501,
+        "longitude": -86.7678957853
+      }
+    },
+    {
+      "number": 6,
+      "class": "Bus",
+      "name": "NASHVILLE_37209_230.0",
+      "init": {
+        "Vr": 0.9654489570114801,
+        "Vi": -0.24786665327449078
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.2313230842,
+        "longitude": -86.9812860055
+      }
+    },
+    {
+      "number": 7,
+      "class": "Bus",
+      "name": "MCMINNVILLE_37110_230.0",
+      "init": {
+        "Vr": 0.983486623229397,
+        "Vi": -0.2167964257084011
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.7300886804,
+        "longitude": -85.7475914022
+      }
+    },
+    {
+      "number": 8,
+      "class": "Bus",
+      "name": "MURFREESBORO_37130_230.0",
+      "init": {
+        "Vr": 1.0040760968007894,
+        "Vi": -0.19580165987074813
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.8407887031,
+        "longitude": -86.2825978601
+      }
+    },
+    {
+      "number": 9,
+      "class": "Bus",
+      "name": "SHELBYVILLE_37160_230.0",
+      "init": {
+        "Vr": 0.9623983603727483,
+        "Vi": -0.276063586947971
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.5018471496,
+        "longitude": -86.6415513207
+      }
+    },
+    {
+      "number": 10,
+      "class": "Bus",
+      "name": "LAFAYETTE_37083_230.0",
+      "init": {
+        "Vr": 1.0017962254442825,
+        "Vi": -0.19727634552344253
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.5241813807,
+        "longitude": -86.137856807
+      }
+    },
+    {
+      "number": 11,
+      "class": "Bus",
+      "name": "CLARKSVILLE_37042_230.0",
+      "init": {
+        "Vr": 1.0208222747203985,
+        "Vi": -0.14894399207236175
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.5247904198,
+        "longitude": -87.5031479097
+      }
+    },
+    {
+      "number": 12,
+      "class": "Bus",
+      "name": "DICKSON_37055_230.0",
+      "init": {
+        "Vr": 0.9747262963097516,
+        "Vi": -0.2182934047925374
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.9636682407,
+        "longitude": -87.4458406938
+      }
+    },
+    {
+      "number": 13,
+      "class": "Bus",
+      "name": "NASHVILLE_37221_230.0",
+      "init": {
+        "Vr": 0.9530496343294855,
+        "Vi": -0.2686614745335258
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.0432600839,
+        "longitude": -87.024371376
+      }
+    },
+    {
+      "number": 14,
+      "class": "Bus",
+      "name": "CLARKSVILLE_37040_230.0",
+      "init": {
+        "Vr": 1.0090861797714659,
+        "Vi": -0.1722989626009111
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.4750590909,
+        "longitude": -87.2991497124
+      }
+    },
+    {
+      "number": 15,
+      "class": "Bus",
+      "name": "WHITE HOUSE_37188_230.0",
+      "init": {
+        "Vr": 0.9922296361670391,
+        "Vi": -0.20679852526727058
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.4681970852,
+        "longitude": -86.5207765343
+      }
+    },
+    {
+      "number": 16,
+      "class": "Bus",
+      "name": "FRANKLIN_37064_230.0",
+      "init": {
+        "Vr": 0.9516564211594092,
+        "Vi": -0.28659482525110663
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.8704281932,
+        "longitude": -86.9483107953
+      }
+    },
+    {
+      "number": 17,
+      "class": "Bus",
+      "name": "HENDERSONVILLE_37075_230.0",
+      "init": {
+        "Vr": 0.9932897545362451,
+        "Vi": -0.20639621807197317
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.3138251592,
+        "longitude": -86.6083222428
+      }
+    },
+    {
+      "number": 18,
+      "class": "Bus",
+      "name": "HERMITAGE_37076_230.0",
+      "init": {
+        "Vr": 0.9850382923999258,
+        "Vi": -0.23036163331094073
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.1305811163,
+        "longitude": -86.6131459318
+      }
+    },
+    {
+      "number": 19,
+      "class": "Bus",
+      "name": "SMYRNA_37167_230.0",
+      "init": {
+        "Vr": 0.9820370188717618,
+        "Vi": -0.23146308209057348
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.98397912,
+        "longitude": -86.5424147847
+      }
+    },
+    {
+      "number": 20,
+      "class": "Bus",
+      "name": "LEXINGTON_38351_230.0",
+      "init": {
+        "Vr": 0.9965658221060792,
+        "Vi": -0.18286753913897394
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.6188447113,
+        "longitude": -88.2598342668
+      }
+    },
+    {
+      "number": 21,
+      "class": "Bus",
+      "name": "NASHVILLE_37207_230.0",
+      "init": {
+        "Vr": 0.9798138546361542,
+        "Vi": -0.22953076387966936
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.2386851446,
+        "longitude": -86.7328960293
+      }
+    },
+    {
+      "number": 22,
+      "class": "Bus",
+      "name": "NASHVILLE_37215_230.0",
+      "init": {
+        "Vr": 0.9922554253551585,
+        "Vi": -0.2209407762927501
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.1368251542,
+        "longitude": -86.6723539361
+      }
+    },
+    {
+      "number": 23,
+      "class": "Bus",
+      "name": "MURFREESBORO_37129_230.0",
+      "init": {
+        "Vr": 0.9965716798838482,
+        "Vi": -0.21046809768576097
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.8608118381,
+        "longitude": -86.4686755144
+      }
+    },
+    {
+      "number": 24,
+      "class": "Bus",
+      "name": "CAMDEN_38320_230.0",
+      "init": {
+        "Vr": 1.0300237359287265,
+        "Vi": -0.1147298075396054
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.0368164557,
+        "longitude": -88.0416134774
+      }
+    },
+    {
+      "number": 25,
+      "class": "Bus",
+      "name": "GAINESBORO_38562_230.0",
+      "init": {
+        "Vr": 1.0047650342941798,
+        "Vi": -0.19589769189433612
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.4681348883,
+        "longitude": -85.6435452999
+      }
+    },
+    {
+      "number": 26,
+      "class": "Bus",
+      "name": "COLUMBIA_38401_230.0",
+      "init": {
+        "Vr": 0.9550405095390985,
+        "Vi": -0.31076346270306443
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.6587771648,
+        "longitude": -86.9813285865
+      }
+    },
+    {
+      "number": 27,
+      "class": "Bus",
+      "name": "TULLAHOMA_37388_230.0",
+      "init": {
+        "Vr": 1.0141716898723618,
+        "Vi": -0.17787676859907145
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.3303718463,
+        "longitude": -86.1340171658
+      }
+    },
+    {
+      "number": 28,
+      "class": "Bus",
+      "name": "NASHVILLE_37212_230.0",
+      "init": {
+        "Vr": 0.9727428309670337,
+        "Vi": -0.24200860326596896
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.1454615304,
+        "longitude": -86.7949119187
+      }
+    },
+    {
+      "number": 29,
+      "class": "Bus",
+      "name": "NASHVILLE_37206_230.0",
+      "init": {
+        "Vr": 0.9822165683030752,
+        "Vi": -0.23103586240720594
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.1654767757,
+        "longitude": -86.7068456117
+      }
+    },
+    {
+      "number": 30,
+      "class": "Bus",
+      "name": "NASHVILLE_37211_230.0",
+      "init": {
+        "Vr": 0.9808023538034126,
+        "Vi": -0.2369245264935362
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.067234,
+        "longitude": -86.723711
+      }
+    },
+    {
+      "number": 31,
+      "class": "Bus",
+      "name": "CHATTANOOGA_37405_230.0",
+      "init": {
+        "Vr": 1.0019819232004832,
+        "Vi": -0.1671774975654018
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1731961923,
+        "longitude": -85.5225459426
+      }
+    },
+    {
+      "number": 32,
+      "class": "Bus",
+      "name": "CHATTANOOGA_37421_230.0",
+      "init": {
+        "Vr": 1.0185823883130065,
+        "Vi": -0.1345523178416063
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.0632635071,
+        "longitude": -85.1078798344
+      }
+    },
+    {
+      "number": 33,
+      "class": "Bus",
+      "name": "ATHENS_37303_230.0",
+      "init": {
+        "Vr": 1.0176935573353707,
+        "Vi": -0.1595245998742776
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.4671515079,
+        "longitude": -84.4815512563
+      }
+    },
+    {
+      "number": 34,
+      "class": "Bus",
+      "name": "CLEVELAND_37311_230.0",
+      "init": {
+        "Vr": 1.0081045174764447,
+        "Vi": -0.15326314297853966
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1167406723,
+        "longitude": -84.8302550606
+      }
+    },
+    {
+      "number": 35,
+      "class": "Bus",
+      "name": "SODDY DAISY_37379_230.0",
+      "init": {
+        "Vr": 1.0245710024140342,
+        "Vi": -0.1230770562256487
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.2728380418,
+        "longitude": -85.0316300656
+      }
+    },
+    {
+      "number": 36,
+      "class": "Bus",
+      "name": "COPPERHILL_37317_230.0",
+      "init": {
+        "Vr": 1.012907326514154,
+        "Vi": -0.14876263828571532
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.0648309118,
+        "longitude": -84.3976910854
+      }
+    },
+    {
+      "number": 37,
+      "class": "Bus",
+      "name": "DAYTON_37321_230.0",
+      "init": {
+        "Vr": 1.0085793807417123,
+        "Vi": -0.1646492903885101
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.5697119979,
+        "longitude": -84.9131826264
+      }
+    },
+    {
+      "number": 38,
+      "class": "Bus",
+      "name": "DUNLAP_37327_230.0",
+      "init": {
+        "Vr": 0.9967182369153103,
+        "Vi": -0.18690674162818935
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.5198662332,
+        "longitude": -85.3293584016
+      }
+    },
+    {
+      "number": 39,
+      "class": "Bus",
+      "name": "FAYETTEVILLE_37334_230.0",
+      "init": {
+        "Vr": 0.9806238508590367,
+        "Vi": -0.24167982936403376
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1325352331,
+        "longitude": -86.5825760861
+      }
+    },
+    {
+      "number": 40,
+      "class": "Bus",
+      "name": "HIXSON_37343_230.0",
+      "init": {
+        "Vr": 1.0204614749619243,
+        "Vi": -0.13166262718859284
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1309065502,
+        "longitude": -85.2298007146
+      }
+    },
+    {
+      "number": 41,
+      "class": "Bus",
+      "name": "CHATTANOOGA_37404_230.0",
+      "init": {
+        "Vr": 1.0074621033112519,
+        "Vi": -0.15458824542640132
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.0170122044,
+        "longitude": -85.2632485895
+      }
+    },
+    {
+      "number": 42,
+      "class": "Bus",
+      "name": "JOHNSON CITY_37601_230.0",
+      "init": {
+        "Vr": 0.9826235264201336,
+        "Vi": -0.2730068939253356
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.3072681288,
+        "longitude": -82.3466130749
+      }
+    },
+    {
+      "number": 43,
+      "class": "Bus",
+      "name": "JONESBOROUGH_37659_230.0",
+      "init": {
+        "Vr": 0.987821915322975,
+        "Vi": -0.26631376221413167
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.3263903427,
+        "longitude": -82.4564160735
+      }
+    },
+    {
+      "number": 44,
+      "class": "Bus",
+      "name": "GREENEVILLE_37745_230.0",
+      "init": {
+        "Vr": 0.987819714176025,
+        "Vi": -0.2620041598336502
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.1684718086,
+        "longitude": -82.8073928435
+      }
+    },
+    {
+      "number": 45,
+      "class": "Bus",
+      "name": "ELIZABETHTON_37643_230.0",
+      "init": {
+        "Vr": 0.9892952515094559,
+        "Vi": -0.265945385969306
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.4385916589,
+        "longitude": -82.120032682
+      }
+    },
+    {
+      "number": 46,
+      "class": "Bus",
+      "name": "CHURCH HILL_37642_230.0",
+      "init": {
+        "Vr": 0.9912033524496223,
+        "Vi": -0.2566223927014992
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.4861057597,
+        "longitude": -82.8358469904
+      }
+    },
+    {
+      "number": 47,
+      "class": "Bus",
+      "name": "KINGSPORT_37660_230.0",
+      "init": {
+        "Vr": 0.9778179192585419,
+        "Vi": -0.278141169413082
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.5123863656,
+        "longitude": -82.5390898047
+      }
+    },
+    {
+      "number": 48,
+      "class": "Bus",
+      "name": "MOUNTAIN CITY_37683_230.0",
+      "init": {
+        "Vr": 0.9835503885317132,
+        "Vi": -0.2746448942430942
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.4619711011,
+        "longitude": -81.817547765
+      }
+    },
+    {
+      "number": 49,
+      "class": "Bus",
+      "name": "MARYVILLE_37804_230.0",
+      "init": {
+        "Vr": 1.0001800766773645,
+        "Vi": -0.21090384174388574
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.8497114484,
+        "longitude": -83.8536113899
+      }
+    },
+    {
+      "number": 50,
+      "class": "Bus",
+      "name": "CLINTON_37716_230.0",
+      "init": {
+        "Vr": 0.9822131669647454,
+        "Vi": -0.23131593123104408
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.1290442197,
+        "longitude": -84.1056747832
+      }
+    },
+    {
+      "number": 51,
+      "class": "Bus",
+      "name": "MORRISTOWN_37814_230.0",
+      "init": {
+        "Vr": 0.9847613015891533,
+        "Vi": -0.25622613291208823
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.254157144,
+        "longitude": -83.2463520059
+      }
+    },
+    {
+      "number": 52,
+      "class": "Bus",
+      "name": "KNOXVILLE_37914_230.0",
+      "init": {
+        "Vr": 0.9811244423099524,
+        "Vi": -0.2410532009440814
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.0263982403,
+        "longitude": -83.7164213141
+      }
+    },
+    {
+      "number": 53,
+      "class": "Bus",
+      "name": "LOUDON_37774_230.0",
+      "init": {
+        "Vr": 1.009454435173033,
+        "Vi": -0.17799164934995004
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.8786134504,
+        "longitude": -84.3041777035
+      }
+    },
+    {
+      "number": 54,
+      "class": "Bus",
+      "name": "JEFFERSON CITY_37760_230.0",
+      "init": {
+        "Vr": 0.9945852688858994,
+        "Vi": -0.24188858280377804
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.0450313058,
+        "longitude": -83.3257022963
+      }
+    },
+    {
+      "number": 55,
+      "class": "Bus",
+      "name": "LA FOLLETTE_37766_230.0",
+      "init": {
+        "Vr": 0.9844244231218844,
+        "Vi": -0.22284900159076806
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.4209694726,
+        "longitude": -84.3043359941
+      }
+    },
+    {
+      "number": 56,
+      "class": "Bus",
+      "name": "KNOXVILLE_37918_230.0",
+      "init": {
+        "Vr": 0.9818276204487184,
+        "Vi": -0.23688225961519224
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.1141335089,
+        "longitude": -83.8868689464
+      }
+    },
+    {
+      "number": 57,
+      "class": "Bus",
+      "name": "CROSSVILLE_38555_230.0",
+      "init": {
+        "Vr": 0.9985884241369709,
+        "Vi": -0.19849647980563062
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.991671075,
+        "longitude": -85.0380809025
+      }
+    },
+    {
+      "number": 58,
+      "class": "Bus",
+      "name": "TAZEWELL_37879_230.0",
+      "init": {
+        "Vr": 0.9759207264569828,
+        "Vi": -0.2589406766367921
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.4785271488,
+        "longitude": -83.6199000857
+      }
+    },
+    {
+      "number": 59,
+      "class": "Bus",
+      "name": "HARRIMAN_37748_230.0",
+      "init": {
+        "Vr": 1.0117941314929475,
+        "Vi": -0.1737221155719919
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.9377632134,
+        "longitude": -84.582597409
+      }
+    },
+    {
+      "number": 60,
+      "class": "Bus",
+      "name": "SEVIERVILLE_37876_230.0",
+      "init": {
+        "Vr": 0.9766525616021742,
+        "Vi": -0.25626912717343214
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.810683885,
+        "longitude": -83.5335217781
+      }
+    },
+    {
+      "number": 61,
+      "class": "Bus",
+      "name": "MARYVILLE_37803_230.0",
+      "init": {
+        "Vr": 0.9931832343055189,
+        "Vi": -0.20435864204981974
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.6605660744,
+        "longitude": -84.0344606157
+      }
+    },
+    {
+      "number": 62,
+      "class": "Bus",
+      "name": "KNOXVILLE_37922_230.0",
+      "init": {
+        "Vr": 0.9970297141380701,
+        "Vi": -0.2021972614285753
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.8647861937,
+        "longitude": -84.1335015059
+      }
+    },
+    {
+      "number": 63,
+      "class": "Bus",
+      "name": "KNOXVILLE_37921_230.0",
+      "init": {
+        "Vr": 0.9992713018647719,
+        "Vi": -0.2085328124582381
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.9870544804,
+        "longitude": -83.9585805915
+      }
+    },
+    {
+      "number": 64,
+      "class": "Bus",
+      "name": "KNOXVILLE_37919_230.0",
+      "init": {
+        "Vr": 0.9997012817931744,
+        "Vi": -0.20372797648209295
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.939789485,
+        "longitude": -84.0597180945
+      }
+    },
+    {
+      "number": 65,
+      "class": "Bus",
+      "name": "HUMBOLDT_38343_230.0",
+      "init": {
+        "Vr": 0.9886425139520696,
+        "Vi": -0.2160271794167301
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.9444317446,
+        "longitude": -88.9888917497
+      }
+    },
+    {
+      "number": 66,
+      "class": "Bus",
+      "name": "ARLINGTON_38002_230.0",
+      "init": {
+        "Vr": 0.9586931839776714,
+        "Vi": -0.2751930153459969
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.2984039765,
+        "longitude": -89.6812590816
+      }
+    },
+    {
+      "number": 67,
+      "class": "Bus",
+      "name": "BRIGHTON_38011_230.0",
+      "init": {
+        "Vr": 0.9763823313388303,
+        "Vi": -0.24687221031776033
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.5610550741,
+        "longitude": -89.7213441895
+      }
+    },
+    {
+      "number": 68,
+      "class": "Bus",
+      "name": "UNION CITY_38261_230.0",
+      "init": {
+        "Vr": 0.9779364422149655,
+        "Vi": -0.22975145772701266
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.385831355,
+        "longitude": -89.2419374891
+      }
+    },
+    {
+      "number": 69,
+      "class": "Bus",
+      "name": "WHITEVILLE_38075_230.0",
+      "init": {
+        "Vr": 0.9891647490185688,
+        "Vi": -0.23178290617849068
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.2638609043,
+        "longitude": -89.0125645514
+      }
+    },
+    {
+      "number": 70,
+      "class": "Bus",
+      "name": "BROWNSVILLE_38012_230.0",
+      "init": {
+        "Vr": 0.9972156813918648,
+        "Vi": -0.21724572342563364
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.5920875633,
+        "longitude": -89.2810608436
+      }
+    },
+    {
+      "number": 71,
+      "class": "Bus",
+      "name": "CORDOVA_38016_230.0",
+      "init": {
+        "Vr": 0.9575854681567861,
+        "Vi": -0.27952168495559737
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1728656581,
+        "longitude": -89.7672334243
+      }
+    },
+    {
+      "number": 72,
+      "class": "Bus",
+      "name": "COLLIERVILLE_38017_230.0",
+      "init": {
+        "Vr": 0.9527006531419188,
+        "Vi": -0.2827912371082914
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1186918963,
+        "longitude": -89.5721653781
+      }
+    },
+    {
+      "number": 73,
+      "class": "Bus",
+      "name": "DYERSBURG_38024_230.0",
+      "init": {
+        "Vr": 0.9866483062189115,
+        "Vi": -0.22322400934416595
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.0241806723,
+        "longitude": -89.3669957098
+      }
+    },
+    {
+      "number": 74,
+      "class": "Bus",
+      "name": "MEMPHIS_38134_230.0",
+      "init": {
+        "Vr": 0.9507569155117731,
+        "Vi": -0.2883064918039806
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1891763378,
+        "longitude": -89.8546642539
+      }
+    },
+    {
+      "number": 75,
+      "class": "Bus",
+      "name": "MEMPHIS_38127_230.0",
+      "init": {
+        "Vr": 0.9451289522993681,
+        "Vi": -0.29376916930297997
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.2797489851,
+        "longitude": -89.9931273378
+      }
+    },
+    {
+      "number": 76,
+      "class": "Bus",
+      "name": "MEMPHIS_38103_230.0",
+      "init": {
+        "Vr": 0.9534255199793822,
+        "Vi": -0.2901355443736755
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1474367811,
+        "longitude": -90.0153628152
+      }
+    },
+    {
+      "number": 77,
+      "class": "Bus",
+      "name": "MEMPHIS_38109_230.0",
+      "init": {
+        "Vr": 0.9478473711223112,
+        "Vi": -0.29766214819949605
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.0636525469,
+        "longitude": -90.1363775041
+      }
+    },
+    {
+      "number": 78,
+      "class": "Bus",
+      "name": "MEMPHIS_38128_230.0",
+      "init": {
+        "Vr": 0.9467011696299812,
+        "Vi": -0.29434025961895505
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1958101077,
+        "longitude": -89.9338214746
+      }
+    },
+    {
+      "number": 79,
+      "class": "Bus",
+      "name": "MEMPHIS_38111_230.0",
+      "init": {
+        "Vr": 0.9704644555018874,
+        "Vi": -0.27257831199939486
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1079542712,
+        "longitude": -89.9448899361
+      }
+    },
+    {
+      "number": 80,
+      "class": "Bus",
+      "name": "MEMPHIS_38115_230.0",
+      "init": {
+        "Vr": 0.954422730659267,
+        "Vi": -0.2886842658966744
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.0504993729,
+        "longitude": -89.8570490773
+      }
+    },
+    {
+      "number": 81,
+      "class": "Bus",
+      "name": "MEMPHIS_38118_230.0",
+      "init": {
+        "Vr": 0.9565260170996176,
+        "Vi": -0.288512654647481
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.0329024361,
+        "longitude": -89.971452972
+      }
+    },
+    {
+      "number": 82,
+      "class": "Bus",
+      "name": "GERMANTOWN_38138_230.0",
+      "init": {
+        "Vr": 0.9511802291930855,
+        "Vi": -0.2906893243237464
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.0558167646,
+        "longitude": -89.7849338054
+      }
+    },
+    {
+      "number": 83,
+      "class": "Bus",
+      "name": "HUNTINGDON_38344_230.0",
+      "init": {
+        "Vr": 0.9832009133089338,
+        "Vi": -0.21609321556898317
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.9750215955,
+        "longitude": -88.569308124
+      }
+    },
+    {
+      "number": 84,
+      "class": "Bus",
+      "name": "PARIS_38242_230.0",
+      "init": {
+        "Vr": 1.0024310624470059,
+        "Vi": -0.17151150445474866
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.3193893371,
+        "longitude": -88.276575755
+      }
+    },
+    {
+      "number": 85,
+      "class": "Bus",
+      "name": "MARTIN_38237_230.0",
+      "init": {
+        "Vr": 0.9831465833997708,
+        "Vi": -0.2131527979538516
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.3568753802,
+        "longitude": -88.7719744011
+      }
+    },
+    {
+      "number": 86,
+      "class": "Bus",
+      "name": "JACKSON_38305_230.0",
+      "init": {
+        "Vr": 1.0171769937310844,
+        "Vi": -0.1742063923352562
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.6627082371,
+        "longitude": -88.8021167132
+      }
+    },
+    {
+      "number": 87,
+      "class": "Bus",
+      "name": "ADAMSVILLE_38310_230.0",
+      "init": {
+        "Vr": 0.9945189633232642,
+        "Vi": -0.2236950367024311
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.2525530677,
+        "longitude": -88.5628126581
+      }
+    },
+    {
+      "number": 88,
+      "class": "Bus",
+      "name": "SAVANNAH_38372_230.0",
+      "init": {
+        "Vr": 0.9852669490332638,
+        "Vi": -0.24030460529188946
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.2314787642,
+        "longitude": -88.0033541713
+      }
+    },
+    {
+      "number": 89,
+      "class": "Bus",
+      "name": "LAWRENCEBURG_38464_230.0",
+      "init": {
+        "Vr": 0.9365758725337678,
+        "Vi": -0.31794144655682105
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.2973723726,
+        "longitude": -87.3072329051
+      }
+    },
+    {
+      "number": 90,
+      "class": "Bus",
+      "name": "COOKEVILLE_38501_230.0",
+      "init": {
+        "Vr": 1.0137477113760271,
+        "Vi": -0.17804908192116
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.1385495023,
+        "longitude": -85.5006963849
+      }
+    },
+    {
+      "number": 91,
+      "class": "Bus",
+      "name": "LIVINGSTON_38570_230.0",
+      "init": {
+        "Vr": 1.0024998928382691,
+        "Vi": -0.19956046849763953
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.4266285988,
+        "longitude": -85.1306273371
+      }
+    },
+    {
+      "number": 92,
+      "class": "Bus",
+      "name": "KNOXVILLE_37921_500.0",
+      "init": {
+        "Vr": 1.0270367440847894,
+        "Vi": -0.15463303687879715
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.9870544804,
+        "longitude": -83.9585805915
+      }
+    },
+    {
+      "number": 93,
+      "class": "Bus",
+      "name": "JEFFERSON CITY_37760_500.0",
+      "init": {
+        "Vr": 1.022860447938449,
+        "Vi": -0.19630605161126705
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.0450313058,
+        "longitude": -83.3257022963
+      }
+    },
+    {
+      "number": 94,
+      "class": "Bus",
+      "name": "HIXSON_37343_500.0",
+      "init": {
+        "Vr": 1.0468229307668933,
+        "Vi": -0.06965021105724224
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1309065502,
+        "longitude": -85.2298007146
+      }
+    },
+    {
+      "number": 95,
+      "class": "Bus",
+      "name": "JACKSON_38305_500.0",
+      "init": {
+        "Vr": 1.0409097085240675,
+        "Vi": -0.12581970485482613
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.6627082371,
+        "longitude": -88.8021167132
+      }
+    },
+    {
+      "number": 96,
+      "class": "Bus",
+      "name": "MURFREESBORO_37129_500.0",
+      "init": {
+        "Vr": 1.0276047035986708,
+        "Vi": -0.14656722721970172
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.8608118381,
+        "longitude": -86.4686755144
+      }
+    },
+    {
+      "number": 97,
+      "class": "Bus",
+      "name": "JONESBOROUGH_37659_500.0",
+      "init": {
+        "Vr": 1.0171519066861257,
+        "Vi": -0.2179610878331412
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.3263903427,
+        "longitude": -82.4564160735
+      }
+    },
+    {
+      "number": 98,
+      "class": "Bus",
+      "name": "CLARKSVILLE_37042_500.0",
+      "init": {
+        "Vr": 1.0411146651614545,
+        "Vi": -0.09939714228205539
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.5247904198,
+        "longitude": -87.5031479097
+      }
+    },
+    {
+      "number": 99,
+      "class": "Bus",
+      "name": "MEMPHIS_38111_500.0",
+      "init": {
+        "Vr": 1.0057723069840956,
+        "Vi": -0.20286200296976065
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1079542712,
+        "longitude": -89.9448899361
+      }
+    },
+    {
+      "number": 100,
+      "class": "Bus",
+      "name": "KNOXVILLE_37919_500.0",
+      "init": {
+        "Vr": 1.0290574796087055,
+        "Vi": -0.14671963335084579
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.939789485,
+        "longitude": -84.0597180945
+      }
+    },
+    {
+      "number": 101,
+      "class": "Bus",
+      "name": "NASHVILLE_37215_500.0",
+      "init": {
+        "Vr": 1.0311123356869807,
+        "Vi": -0.1345213970955045
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.1368251542,
+        "longitude": -86.6723539361
+      }
+    },
+    {
+      "number": 102,
+      "class": "Bus",
+      "name": "MURFREESBORO_37130_500.0",
+      "init": {
+        "Vr": 1.029436832077462,
+        "Vi": -0.1441763426022276
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.8407887031,
+        "longitude": -86.2825978601
+      }
+    },
+    {
+      "number": 103,
+      "class": "Bus",
+      "name": "ELIZABETHTON_37643_500.0",
+      "init": {
+        "Vr": 1.0121017077498735,
+        "Vi": -0.22740190797609047
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.4385916589,
+        "longitude": -82.120032682
+      }
+    },
+    {
+      "number": 104,
+      "class": "Bus",
+      "name": "CORDOVA_38016_500.0",
+      "init": {
+        "Vr": 1.0077044477457684,
+        "Vi": -0.19805552454181635
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1728656581,
+        "longitude": -89.7672334243
+      }
+    },
+    {
+      "number": 105,
+      "class": "Bus",
+      "name": "COOKEVILLE_38501_500.0",
+      "init": {
+        "Vr": 1.0369489188366299,
+        "Vi": -0.12416438162210175
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.1385495023,
+        "longitude": -85.5006963849
+      }
+    },
+    {
+      "number": 106,
+      "class": "Bus",
+      "name": "TULLAHOMA_37388_500.0",
+      "init": {
+        "Vr": 1.0347581253500702,
+        "Vi": -0.12743378960578014
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.3303718463,
+        "longitude": -86.1340171658
+      }
+    },
+    {
+      "number": 107,
+      "class": "Bus",
+      "name": "ATHENS_37303_500.0",
+      "init": {
+        "Vr": 1.0406308119024419,
+        "Vi": -0.11028607571085285
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.4671515079,
+        "longitude": -84.4815512563
+      }
+    },
+    {
+      "number": 108,
+      "class": "Bus",
+      "name": "CLARKSVILLE_37040_500.0",
+      "init": {
+        "Vr": 1.0397085525223706,
+        "Vi": -0.10495299922819384
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.4750590909,
+        "longitude": -87.2991497124
+      }
+    },
+    {
+      "number": 109,
+      "class": "Bus",
+      "name": "MARYVILLE_37804_500.0",
+      "init": {
+        "Vr": 1.0271562223070465,
+        "Vi": -0.16095743231873413
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.8497114484,
+        "longitude": -83.8536113899
+      }
+    },
+    {
+      "number": 110,
+      "class": "Bus",
+      "name": "Gallatin (TN)_g1",
+      "init": {
+        "Vr": 1.0379126862491561,
+        "Vi": -0.06585724083624415
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.3155502,
+        "longitude": -86.40037003
+      }
+    },
+    {
+      "number": 111,
+      "class": "Bus",
+      "name": "Gallatin (TN)_g2",
+      "init": {
+        "Vr": 1.037912686554789,
+        "Vi": -0.06585723602588951
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.3155502,
+        "longitude": -86.40037003
+      }
+    },
+    {
+      "number": 112,
+      "class": "Bus",
+      "name": "Gallatin (TN)_g3",
+      "init": {
+        "Vr": 1.0379126858962313,
+        "Vi": -0.06585724639744035
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.3155502,
+        "longitude": -86.40037003
+      }
+    },
+    {
+      "number": 113,
+      "class": "Bus",
+      "name": "John Sevier_g1",
+      "init": {
+        "Vr": 1.0296320092348208,
+        "Vi": -0.14648496966667152
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.37678246,
+        "longitude": -82.96343716
+      }
+    },
+    {
+      "number": 114,
+      "class": "Bus",
+      "name": "John Sevier_g2",
+      "init": {
+        "Vr": 1.0296320092348208,
+        "Vi": -0.14648496966667152
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.37678246,
+        "longitude": -82.96343716
+      }
+    },
+    {
+      "number": 115,
+      "class": "Bus",
+      "name": "John Sevier_g3",
+      "init": {
+        "Vr": 1.0296320090338917,
+        "Vi": -0.14648497108445904
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.37678246,
+        "longitude": -82.96343716
+      }
+    },
+    {
+      "number": 116,
+      "class": "Bus",
+      "name": "Johnsonville_g1",
+      "init": {
+        "Vr": 1.0399999589677156,
+        "Vi": -7.696496842119997e-05
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.02816018,
+        "longitude": -87.98583341
+      }
+    },
+    {
+      "number": 117,
+      "class": "Bus",
+      "name": "Johnsonville_g2",
+      "init": {
+        "Vr": 1.0399999589677156,
+        "Vi": -7.696496842119997e-05
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.02816018,
+        "longitude": -87.98583341
+      }
+    },
+    {
+      "number": 118,
+      "class": "Bus",
+      "name": "Johnsonville_g3",
+      "init": {
+        "Vr": 1.0399999589677156,
+        "Vi": -7.696496842119997e-05
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.02816018,
+        "longitude": -87.98583341
+      }
+    },
+    {
+      "number": 119,
+      "class": "Bus",
+      "name": "Johnsonville_g5",
+      "init": {
+        "Vr": 1.039999958966349,
+        "Vi": -7.698224913508893e-05
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.02816018,
+        "longitude": -87.98583341
+      }
+    },
+    {
+      "number": 120,
+      "class": "Bus",
+      "name": "Kingston_g1",
+      "init": {
+        "Vr": 1.0387385715575606,
+        "Vi": -0.05120645140282487
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.90860564,
+        "longitude": -84.46181239
+      }
+    },
+    {
+      "number": 121,
+      "class": "Bus",
+      "name": "Kingston_g2",
+      "init": {
+        "Vr": 1.0387385715575606,
+        "Vi": -0.05120645140282487
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.90860564,
+        "longitude": -84.46181239
+      }
+    },
+    {
+      "number": 122,
+      "class": "Bus",
+      "name": "Kingston_g3",
+      "init": {
+        "Vr": 1.0387385720878743,
+        "Vi": -0.051206440643013884
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.90860564,
+        "longitude": -84.46181239
+      }
+    },
+    {
+      "number": 123,
+      "class": "Bus",
+      "name": "Kingston_g4",
+      "init": {
+        "Vr": 1.0387385720878743,
+        "Vi": -0.051206440643013884
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.90860564,
+        "longitude": -84.46181239
+      }
+    },
+    {
+      "number": 124,
+      "class": "Bus",
+      "name": "Lagoon Creek_g1",
+      "init": {
+        "Vr": 1.0360836964084197,
+        "Vi": -0.0901692548975368
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.6518597,
+        "longitude": -89.40083354
+      }
+    },
+    {
+      "number": 125,
+      "class": "Bus",
+      "name": "Lagoon Creek_g2",
+      "init": {
+        "Vr": 1.0360836964084197,
+        "Vi": -0.0901692548975368
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.6518597,
+        "longitude": -89.40083354
+      }
+    },
+    {
+      "number": 126,
+      "class": "Bus",
+      "name": "Lagoon Creek_g3",
+      "init": {
+        "Vr": 1.0360836964084197,
+        "Vi": -0.0901692548975368
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.6518597,
+        "longitude": -89.40083354
+      }
+    },
+    {
+      "number": 127,
+      "class": "Bus",
+      "name": "Lagoon Creek_g4",
+      "init": {
+        "Vr": 1.0360836964084197,
+        "Vi": -0.0901692548975368
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.6518597,
+        "longitude": -89.40083354
+      }
+    },
+    {
+      "number": 128,
+      "class": "Bus",
+      "name": "Lagoon Creek_g5",
+      "init": {
+        "Vr": 1.0360836962826998,
+        "Vi": -0.09016925634090643
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.6518597,
+        "longitude": -89.40083354
+      }
+    },
+    {
+      "number": 129,
+      "class": "Bus",
+      "name": "Pickwick Landing Dam_g1",
+      "init": {
+        "Vr": 1.0362978769664548,
+        "Vi": -0.08767343214603082
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.068214,
+        "longitude": -88.24970448
+      }
+    },
+    {
+      "number": 130,
+      "class": "Bus",
+      "name": "Sequoyah_g1",
+      "init": {
+        "Vr": 1.0399986413116595,
+        "Vi": 0.001657292798385626
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.22668393,
+        "longitude": -85.09150732
+      }
+    },
+    {
+      "number": 131,
+      "class": "Bus",
+      "name": "Sequoyah_g2",
+      "init": {
+        "Vr": 1.0399986413116595,
+        "Vi": 0.001657292798385626
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.22668393,
+        "longitude": -85.09150732
+      }
+    },
+    {
+      "number": 132,
+      "class": "Bus",
+      "name": "Sequoyah_g3",
+      "init": {
+        "Vr": 1.0399986413116595,
+        "Vi": 0.001657292798385626
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.22668393,
+        "longitude": -85.09150732
+      }
+    },
+    {
+      "number": 133,
+      "class": "Bus",
+      "name": "Sequoyah_g4",
+      "init": {
+        "Vr": 1.039998641294889,
+        "Vi": 0.001657303108646958
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.22668393,
+        "longitude": -85.09150732
+      }
+    },
+    {
+      "number": 134,
+      "class": "Bus",
+      "name": "Sequoyah_g5",
+      "init": {
+        "Vr": 1.039998641294889,
+        "Vi": 0.001657303108646958
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.22668393,
+        "longitude": -85.09150732
+      }
+    },
+    {
+      "number": 135,
+      "class": "Bus",
+      "name": "Tims Ford_g1",
+      "init": {
+        "Vr": 1.028581983370876,
+        "Vi": -0.15368481994114025
+      },
+      "params": {
+        "kv": 13.800000190734863
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1967,
+        "longitude": -86.2783
+      }
+    },
+    {
+      "number": 136,
+      "class": "Bus",
+      "name": "Lagoon Creek_230.0",
+      "init": {
+        "Vr": 1.0104608788825622,
+        "Vi": -0.19509329445950077
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.6518597,
+        "longitude": -89.40083354
+      }
+    },
+    {
+      "number": 137,
+      "class": "Bus",
+      "name": "Lagoon Creek_500.0",
+      "init": {
+        "Vr": 1.0354490786715416,
+        "Vi": -0.14257349901533772
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.6518597,
+        "longitude": -89.40083354
+      }
+    },
+    {
+      "number": 138,
+      "class": "Bus",
+      "name": "Kingston_230.0",
+      "init": {
+        "Vr": 1.0223031228190564,
+        "Vi": -0.15569922497199246
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.90860564,
+        "longitude": -84.46181239
+      }
+    },
+    {
+      "number": 139,
+      "class": "Bus",
+      "name": "Kingston_500.0",
+      "init": {
+        "Vr": 1.0432042066326928,
+        "Vi": -0.103830575438977
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.90860564,
+        "longitude": -84.46181239
+      }
+    },
+    {
+      "number": 140,
+      "class": "Bus",
+      "name": "Tims Ford_230.0",
+      "init": {
+        "Vr": 1.003364290886584,
+        "Vi": -0.2022109671338283
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.1967,
+        "longitude": -86.2783
+      }
+    },
+    {
+      "number": 141,
+      "class": "Bus",
+      "name": "Gallatin (TN)_230.0",
+      "init": {
+        "Vr": 1.0109376748432746,
+        "Vi": -0.17851245758088827
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.3155502,
+        "longitude": -86.40037003
+      }
+    },
+    {
+      "number": 142,
+      "class": "Bus",
+      "name": "Gallatin (TN)_500.0",
+      "init": {
+        "Vr": 1.0377250115952472,
+        "Vi": -0.11819271289237362
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.3155502,
+        "longitude": -86.40037003
+      }
+    },
+    {
+      "number": 143,
+      "class": "Bus",
+      "name": "Johnsonville_230.0",
+      "init": {
+        "Vr": 1.0350606156981212,
+        "Vi": -0.1044576965443755
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.02816018,
+        "longitude": -87.98583341
+      }
+    },
+    {
+      "number": 144,
+      "class": "Bus",
+      "name": "Johnsonville_500.0",
+      "init": {
+        "Vr": 1.0527239833775006,
+        "Vi": -0.05256026703361473
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.02816018,
+        "longitude": -87.98583341
+      }
+    },
+    {
+      "number": 145,
+      "class": "Bus",
+      "name": "Sequoyah_230.0",
+      "init": {
+        "Vr": 1.0315512030291674,
+        "Vi": -0.10894198144622004
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.22668393,
+        "longitude": -85.09150732
+      }
+    },
+    {
+      "number": 146,
+      "class": "Bus",
+      "name": "Sequoyah_500.0",
+      "init": {
+        "Vr": 1.0512957191511925,
+        "Vi": -0.05076925988082136
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.22668393,
+        "longitude": -85.09150732
+      }
+    },
+    {
+      "number": 147,
+      "class": "Bus",
+      "name": "Pickwick Landing Dam_230.0",
+      "init": {
+        "Vr": 1.0165549875405215,
+        "Vi": -0.1896348909653518
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.068214,
+        "longitude": -88.24970448
+      }
+    },
+    {
+      "number": 148,
+      "class": "Bus",
+      "name": "Pickwick Landing Dam_500.0",
+      "init": {
+        "Vr": 1.0383939061517158,
+        "Vi": -0.14036511332513033
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 35.068214,
+        "longitude": -88.24970448
+      }
+    },
+    {
+      "number": 149,
+      "class": "Bus",
+      "name": "John Sevier_230.0",
+      "init": {
+        "Vr": 1.008375134312387,
+        "Vi": -0.23112440413399102
+      },
+      "params": {
+        "kv": 230.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.37678246,
+        "longitude": -82.96343716
+      }
+    },
+    {
+      "number": 150,
+      "class": "Bus",
+      "name": "John Sevier_500.0",
+      "init": {
+        "Vr": 1.0258380141074066,
+        "Vi": -0.19872557851175796
+      },
+      "params": {
+        "kv": 500.0
+      },
+      "mon": [
+        "Vm",
+        "Va"
+      ],
+      "extension": {
+        "latitude": 36.37678246,
+        "longitude": -82.96343716
+      }
+    }
+  ],
+  "devices": [
+    {
+      "class": "Branch",
+      "id": "branch_2_14_1",
+      "ports": {
+        "bus1": 2,
+        "bus2": 14
+      },
+      "params": {
+        "R": 0.005461940076202154,
+        "X": 0.03889932855963707,
+        "B": 0.07136815041303635,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_2_21_1",
+      "ports": {
+        "bus1": 2,
+        "bus2": 21
+      },
+      "params": {
+        "R": 0.003179198829457164,
+        "X": 0.022641899064183235,
+        "B": 0.041540831327438354,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_4_18_1",
+      "ports": {
+        "bus1": 4,
+        "bus2": 18
+      },
+      "params": {
+        "R": 0.0011770931305363774,
+        "X": 0.008383125066757202,
+        "B": 0.015380422584712505,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_4_19_1",
+      "ports": {
+        "bus1": 4,
+        "bus2": 19
+      },
+      "params": {
+        "R": 0.0014710711548104882,
+        "X": 0.010476804338395596,
+        "B": 0.019221670925617218,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_4_30_1",
+      "ports": {
+        "bus1": 4,
+        "bus2": 30
+      },
+      "params": {
+        "R": 0.001108613214455545,
+        "X": 0.007895420305430889,
+        "B": 0.014485634863376617,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_5_16_1",
+      "ports": {
+        "bus1": 5,
+        "bus2": 16
+      },
+      "params": {
+        "R": 0.002544632414355874,
+        "X": 0.018122587352991104,
+        "B": 0.033249303698539734,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_5_30_1",
+      "ports": {
+        "bus1": 5,
+        "bus2": 30
+      },
+      "params": {
+        "R": 0.001630411483347416,
+        "X": 0.011611608788371086,
+        "B": 0.021303683519363403,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_6_13_1",
+      "ports": {
+        "bus1": 6,
+        "bus2": 13
+      },
+      "params": {
+        "R": 0.0028179220389574766,
+        "X": 0.020068924874067307,
+        "B": 0.03682022541761398,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_6_14_1",
+      "ports": {
+        "bus1": 6,
+        "bus2": 14
+      },
+      "params": {
+        "R": 0.005208019632846117,
+        "X": 0.037090934813022614,
+        "B": 0.0680503100156784,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_6_28_1",
+      "ports": {
+        "bus1": 6,
+        "bus2": 28
+      },
+      "params": {
+        "R": 0.0025518930051475763,
+        "X": 0.018174296244978905,
+        "B": 0.033344171941280365,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_7_8_1",
+      "ports": {
+        "bus1": 7,
+        "bus2": 8
+      },
+      "params": {
+        "R": 0.006599273532629013,
+        "X": 0.046999286860227585,
+        "B": 0.08622904866933823,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_7_38_1",
+      "ports": {
+        "bus1": 7,
+        "bus2": 38
+      },
+      "params": {
+        "R": 0.005889217834919691,
+        "X": 0.041942350566387177,
+        "B": 0.07695114612579346,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_8_23_1",
+      "ports": {
+        "bus1": 8,
+        "bus2": 23
+      },
+      "params": {
+        "R": 0.0022417197469621897,
+        "X": 0.015965277329087257,
+        "B": 0.029291309416294098,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_8_102_1",
+      "ports": {
+        "bus1": 8,
+        "bus2": 102
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_9_23_1",
+      "ports": {
+        "bus1": 9,
+        "bus2": 23
+      },
+      "params": {
+        "R": 0.005679205991327763,
+        "X": 0.04044667258858681,
+        "B": 0.07420703768730164,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_9_26_1",
+      "ports": {
+        "bus1": 9,
+        "bus2": 26
+      },
+      "params": {
+        "R": 0.004682288039475679,
+        "X": 0.03334673494100571,
+        "B": 0.06118086725473404,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_9_39_1",
+      "ports": {
+        "bus1": 9,
+        "bus2": 39
+      },
+      "params": {
+        "R": 0.005487385205924511,
+        "X": 0.03908054530620575,
+        "B": 0.07170061767101288,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_10_25_1",
+      "ports": {
+        "bus1": 10,
+        "bus2": 25
+      },
+      "params": {
+        "R": 0.005912811495363712,
+        "X": 0.0421103835105896,
+        "B": 0.07725942879915237,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_10_141_1",
+      "ports": {
+        "bus1": 10,
+        "bus2": 141
+      },
+      "params": {
+        "R": 0.004374482203274965,
+        "X": 0.0311545729637146,
+        "B": 0.0571589358150959,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_11_14_1",
+      "ports": {
+        "bus1": 11,
+        "bus2": 14
+      },
+      "params": {
+        "R": 0.002524800831452012,
+        "X": 0.017981350421905518,
+        "B": 0.03299017623066902,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_11_98_1",
+      "ports": {
+        "bus1": 11,
+        "bus2": 98
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_12_13_1",
+      "ports": {
+        "bus1": 12,
+        "bus2": 13
+      },
+      "params": {
+        "R": 0.005158720072358847,
+        "X": 0.03673982620239258,
+        "B": 0.06740613281726837,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_12_143_1",
+      "ports": {
+        "bus1": 12,
+        "bus2": 143
+      },
+      "params": {
+        "R": 0.00650675967335701,
+        "X": 0.04634041339159012,
+        "B": 0.08502022176980972,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_13_16_1",
+      "ports": {
+        "bus1": 13,
+        "bus2": 16
+      },
+      "params": {
+        "R": 0.0027032289654016495,
+        "X": 0.019252095371484756,
+        "B": 0.035321593284606934,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_14_108_1",
+      "ports": {
+        "bus1": 14,
+        "bus2": 108
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_15_17_1",
+      "ports": {
+        "bus1": 15,
+        "bus2": 17
+      },
+      "params": {
+        "R": 0.0025002937763929367,
+        "X": 0.01780681312084198,
+        "B": 0.032669954001903534,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_16_26_1",
+      "ports": {
+        "bus1": 16,
+        "bus2": 26
+      },
+      "params": {
+        "R": 0.003143319394439459,
+        "X": 0.022386370226740837,
+        "B": 0.04107201099395752,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_17_21_1",
+      "ports": {
+        "bus1": 17,
+        "bus2": 21
+      },
+      "params": {
+        "R": 0.0018480161670595407,
+        "X": 0.013161364942789078,
+        "B": 0.024147002026438713,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_18_22_1",
+      "ports": {
+        "bus1": 18,
+        "bus2": 22
+      },
+      "params": {
+        "R": 0.0007105382392182946,
+        "X": 0.005060373805463314,
+        "B": 0.009284209460020065,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_19_3_1",
+      "ports": {
+        "bus1": 19,
+        "bus2": 3
+      },
+      "params": {
+        "R": 0.00544848944991827,
+        "X": 0.03880353271961212,
+        "B": 0.07119239121675491,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_19_23_1",
+      "ports": {
+        "bus1": 19,
+        "bus2": 23
+      },
+      "params": {
+        "R": 0.002016765298321843,
+        "X": 0.014363177120685577,
+        "B": 0.02635195478796959,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_20_143_1",
+      "ports": {
+        "bus1": 20,
+        "bus2": 143
+      },
+      "params": {
+        "R": 0.006861871108412743,
+        "X": 0.048869479447603226,
+        "B": 0.08966027200222015,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_21_29_1",
+      "ports": {
+        "bus1": 21,
+        "bus2": 29
+      },
+      "params": {
+        "R": 0.0011222274042665958,
+        "X": 0.007992378436028957,
+        "B": 0.014663523994386196,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_22_29_1",
+      "ports": {
+        "bus1": 22,
+        "bus2": 29
+      },
+      "params": {
+        "R": 0.0005887240404263139,
+        "X": 0.004192826803773642,
+        "B": 0.007692530285567045,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_22_30_1",
+      "ports": {
+        "bus1": 22,
+        "bus2": 30
+      },
+      "params": {
+        "R": 0.001193783595226705,
+        "X": 0.008501993492245674,
+        "B": 0.015598508529365063,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_22_30_2",
+      "ports": {
+        "bus1": 22,
+        "bus2": 30
+      },
+      "params": {
+        "R": 0.001193783595226705,
+        "X": 0.008501993492245674,
+        "B": 0.015598508529365063,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_22_101_1",
+      "ports": {
+        "bus1": 22,
+        "bus2": 101
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_22_101_2",
+      "ports": {
+        "bus1": 22,
+        "bus2": 101
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_23_96_1",
+      "ports": {
+        "bus1": 23,
+        "bus2": 96
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_24_143_1",
+      "ports": {
+        "bus1": 24,
+        "bus2": 143
+      },
+      "params": {
+        "R": 0.0006767476443201303,
+        "X": 0.004819720983505249,
+        "B": 0.00884268619120121,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_27_106_1",
+      "ports": {
+        "bus1": 27,
+        "bus2": 106
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_28_29_1",
+      "ports": {
+        "bus1": 28,
+        "bus2": 29
+      },
+      "params": {
+        "R": 0.0010883851209655404,
+        "X": 0.007751357741653919,
+        "B": 0.01422132644802332,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_31_38_1",
+      "ports": {
+        "bus1": 31,
+        "bus2": 38
+      },
+      "params": {
+        "R": 0.005610684864223003,
+        "X": 0.03995867073535919,
+        "B": 0.0733117088675499,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_31_40_1",
+      "ports": {
+        "bus1": 31,
+        "bus2": 40
+      },
+      "params": {
+        "R": 0.0035812612622976303,
+        "X": 0.025505343452095985,
+        "B": 0.046794354915618896,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_31_41_1",
+      "ports": {
+        "bus1": 31,
+        "bus2": 41
+      },
+      "params": {
+        "R": 0.003881575772538781,
+        "X": 0.027644149959087372,
+        "B": 0.05071840062737465,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_32_36_1",
+      "ports": {
+        "bus1": 32,
+        "bus2": 36
+      },
+      "params": {
+        "R": 0.008564754389226437,
+        "X": 0.06099722534418106,
+        "B": 0.11191090196371078,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_32_40_1",
+      "ports": {
+        "bus1": 32,
+        "bus2": 40
+      },
+      "params": {
+        "R": 0.001775796408765018,
+        "X": 0.012647023424506187,
+        "B": 0.023203348740935326,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_33_37_1",
+      "ports": {
+        "bus1": 33,
+        "bus2": 37
+      },
+      "params": {
+        "R": 0.005392310209572315,
+        "X": 0.038403432816267014,
+        "B": 0.07045833021402359,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_33_107_1",
+      "ports": {
+        "bus1": 33,
+        "bus2": 107
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_34_36_1",
+      "ports": {
+        "bus1": 34,
+        "bus2": 36
+      },
+      "params": {
+        "R": 0.00527071300894022,
+        "X": 0.037537429481744766,
+        "B": 0.06886948645114899,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_35_34_1",
+      "ports": {
+        "bus1": 35,
+        "bus2": 34
+      },
+      "params": {
+        "R": 0.003341933712363243,
+        "X": 0.02380087785422802,
+        "B": 0.04366719722747803,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_35_37_1",
+      "ports": {
+        "bus1": 35,
+        "bus2": 37
+      },
+      "params": {
+        "R": 0.004599488340318203,
+        "X": 0.03275704383850098,
+        "B": 0.06009896472096443,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_35_145_1",
+      "ports": {
+        "bus1": 35,
+        "bus2": 145
+      },
+      "params": {
+        "R": 0.0009907082421705127,
+        "X": 0.0070557137951254845,
+        "B": 0.01294503640383482,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_35_145_2",
+      "ports": {
+        "bus1": 35,
+        "bus2": 145
+      },
+      "params": {
+        "R": 0.0009907082421705127,
+        "X": 0.0070557137951254845,
+        "B": 0.01294503640383482,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_37_38_1",
+      "ports": {
+        "bus1": 37,
+        "bus2": 38
+      },
+      "params": {
+        "R": 0.005043026991188526,
+        "X": 0.03591587394475937,
+        "B": 0.06589443981647491,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_40_41_1",
+      "ports": {
+        "bus1": 40,
+        "bus2": 41
+      },
+      "params": {
+        "R": 0.0017258909065276384,
+        "X": 0.012291602790355682,
+        "B": 0.022551260888576508,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_40_94_1",
+      "ports": {
+        "bus1": 40,
+        "bus2": 94
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_42_43_1",
+      "ports": {
+        "bus1": 42,
+        "bus2": 43
+      },
+      "params": {
+        "R": 0.0013336659176275134,
+        "X": 0.009498219937086105,
+        "B": 0.017426272854208946,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_43_97_1",
+      "ports": {
+        "bus1": 43,
+        "bus2": 97
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_44_42_1",
+      "ports": {
+        "bus1": 44,
+        "bus2": 42
+      },
+      "params": {
+        "R": 0.005845245439559221,
+        "X": 0.041629184037446976,
+        "B": 0.07637658715248108,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_44_149_1",
+      "ports": {
+        "bus1": 44,
+        "bus2": 149
+      },
+      "params": {
+        "R": 0.0035855090245604515,
+        "X": 0.025535594671964645,
+        "B": 0.04684985801577568,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_45_42_1",
+      "ports": {
+        "bus1": 45,
+        "bus2": 42
+      },
+      "params": {
+        "R": 0.0033119702711701393,
+        "X": 0.023587482050061226,
+        "B": 0.043275680392980576,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_45_48_1",
+      "ports": {
+        "bus1": 45,
+        "bus2": 48
+      },
+      "params": {
+        "R": 0.0036014127545058727,
+        "X": 0.02564886026084423,
+        "B": 0.04705766588449478,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_45_103_1",
+      "ports": {
+        "bus1": 45,
+        "bus2": 103
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_46_47_1",
+      "ports": {
+        "bus1": 46,
+        "bus2": 47
+      },
+      "params": {
+        "R": 0.003536062315106392,
+        "X": 0.02518344111740589,
+        "B": 0.04620376601815224,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_46_149_1",
+      "ports": {
+        "bus1": 46,
+        "bus2": 149
+      },
+      "params": {
+        "R": 0.0022095676977187395,
+        "X": 0.0157362949103117,
+        "B": 0.028871197253465652,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_47_43_1",
+      "ports": {
+        "bus1": 47,
+        "bus2": 43
+      },
+      "params": {
+        "R": 0.0029104615096002817,
+        "X": 0.020727982744574547,
+        "B": 0.03802938759326935,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_47_48_1",
+      "ports": {
+        "bus1": 47,
+        "bus2": 48
+      },
+      "params": {
+        "R": 0.008579487912356853,
+        "X": 0.061102159321308136,
+        "B": 0.1121034175157547,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_49_52_1",
+      "ports": {
+        "bus1": 49,
+        "bus2": 52
+      },
+      "params": {
+        "R": 0.003074970096349716,
+        "X": 0.021899593994021416,
+        "B": 0.04017893224954605,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_49_63_1",
+      "ports": {
+        "bus1": 49,
+        "bus2": 63
+      },
+      "params": {
+        "R": 0.0023798588663339615,
+        "X": 0.016949089244008064,
+        "B": 0.03109629638493061,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_49_109_1",
+      "ports": {
+        "bus1": 49,
+        "bus2": 109
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_50_55_1",
+      "ports": {
+        "bus1": 50,
+        "bus2": 55
+      },
+      "params": {
+        "R": 0.0049059693701565266,
+        "X": 0.03493976593017578,
+        "B": 0.06410358846187592,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_50_56_1",
+      "ports": {
+        "bus1": 50,
+        "bus2": 56
+      },
+      "params": {
+        "R": 0.002613374497741461,
+        "X": 0.01861216127872467,
+        "B": 0.03414751589298248,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_50_64_1",
+      "ports": {
+        "bus1": 50,
+        "bus2": 64
+      },
+      "params": {
+        "R": 0.0028417042922228575,
+        "X": 0.020238300785422325,
+        "B": 0.03713097423315048,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_51_54_1",
+      "ports": {
+        "bus1": 51,
+        "bus2": 54
+      },
+      "params": {
+        "R": 0.003222608705982566,
+        "X": 0.02295105904340744,
+        "B": 0.04210804030299187,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_51_58_1",
+      "ports": {
+        "bus1": 51,
+        "bus2": 58
+      },
+      "params": {
+        "R": 0.005529026500880718,
+        "X": 0.039377108216285706,
+        "B": 0.07224472612142563,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_51_149_1",
+      "ports": {
+        "bus1": 51,
+        "bus2": 149
+      },
+      "params": {
+        "R": 0.003813887946307659,
+        "X": 0.027162084355950356,
+        "B": 0.049833960831165314,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_52_56_1",
+      "ports": {
+        "bus1": 52,
+        "bus2": 56
+      },
+      "params": {
+        "R": 0.0024065664038062096,
+        "X": 0.017139296978712082,
+        "B": 0.03144526854157448,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_52_60_1",
+      "ports": {
+        "bus1": 52,
+        "bus2": 60
+      },
+      "params": {
+        "R": 0.0038554465863853693,
+        "X": 0.027458060532808304,
+        "B": 0.05037698522210121,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_53_62_1",
+      "ports": {
+        "bus1": 53,
+        "bus2": 62
+      },
+      "params": {
+        "R": 0.002047912683337927,
+        "X": 0.014585006050765514,
+        "B": 0.026758940890431404,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_53_138_1",
+      "ports": {
+        "bus1": 53,
+        "bus2": 138
+      },
+      "params": {
+        "R": 0.0019327233312651515,
+        "X": 0.013764639385044575,
+        "B": 0.02525382488965988,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_53_138_2",
+      "ports": {
+        "bus1": 53,
+        "bus2": 138
+      },
+      "params": {
+        "R": 0.0019327233312651515,
+        "X": 0.013764639385044575,
+        "B": 0.02525382488965988,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_54_60_1",
+      "ports": {
+        "bus1": 54,
+        "bus2": 60
+      },
+      "params": {
+        "R": 0.004250858444720507,
+        "X": 0.03027413971722126,
+        "B": 0.05554361268877983,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_54_93_1",
+      "ports": {
+        "bus1": 54,
+        "bus2": 93
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_55_138_1",
+      "ports": {
+        "bus1": 55,
+        "bus2": 138
+      },
+      "params": {
+        "R": 0.007778016384691,
+        "X": 0.055394165217876434,
+        "B": 0.1016310304403305,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_56_58_1",
+      "ports": {
+        "bus1": 56,
+        "bus2": 58
+      },
+      "params": {
+        "R": 0.006235039792954922,
+        "X": 0.0444052591919899,
+        "B": 0.0814698114991188,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_56_63_1",
+      "ports": {
+        "bus1": 56,
+        "bus2": 63
+      },
+      "params": {
+        "R": 0.0020580298732966185,
+        "X": 0.014657058753073215,
+        "B": 0.026891134679317474,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_57_59_1",
+      "ports": {
+        "bus1": 57,
+        "bus2": 59
+      },
+      "params": {
+        "R": 0.005489521659910679,
+        "X": 0.03909575939178467,
+        "B": 0.07172854244709015,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_57_90_1",
+      "ports": {
+        "bus1": 57,
+        "bus2": 90
+      },
+      "params": {
+        "R": 0.005919540300965309,
+        "X": 0.042158305644989014,
+        "B": 0.07734735310077667,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_59_138_1",
+      "ports": {
+        "bus1": 59,
+        "bus2": 138
+      },
+      "params": {
+        "R": 0.0015038199489936233,
+        "X": 0.010710038244724274,
+        "B": 0.019649581983685493,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_61_33_1",
+      "ports": {
+        "bus1": 61,
+        "bus2": 33
+      },
+      "params": {
+        "R": 0.0060692355036735535,
+        "X": 0.04322442039847374,
+        "B": 0.07930333912372589,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_61_62_1",
+      "ports": {
+        "bus1": 61,
+        "bus2": 62
+      },
+      "params": {
+        "R": 0.0032335540745407343,
+        "X": 0.023029010742902756,
+        "B": 0.04225105792284012,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_62_64_1",
+      "ports": {
+        "bus1": 62,
+        "bus2": 64
+      },
+      "params": {
+        "R": 0.0014130260096862912,
+        "X": 0.01006341353058815,
+        "B": 0.01846322789788246,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_63_64_1",
+      "ports": {
+        "bus1": 63,
+        "bus2": 64
+      },
+      "params": {
+        "R": 0.0013927208492532372,
+        "X": 0.009918802417814732,
+        "B": 0.018197910860180855,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_63_92_1",
+      "ports": {
+        "bus1": 63,
+        "bus2": 92
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_64_100_1",
+      "ports": {
+        "bus1": 64,
+        "bus2": 100
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_65_73_1",
+      "ports": {
+        "bus1": 65,
+        "bus2": 73
+      },
+      "params": {
+        "R": 0.0046584890224039555,
+        "X": 0.03317723795771599,
+        "B": 0.06086989492177963,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_65_83_1",
+      "ports": {
+        "bus1": 65,
+        "bus2": 83
+      },
+      "params": {
+        "R": 0.005024215672165155,
+        "X": 0.03578190132975578,
+        "B": 0.0656486451625824,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_65_86_1",
+      "ports": {
+        "bus1": 65,
+        "bus2": 86
+      },
+      "params": {
+        "R": 0.004712854512035847,
+        "X": 0.03356442227959633,
+        "B": 0.06158025935292244,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_66_67_1",
+      "ports": {
+        "bus1": 66,
+        "bus2": 67
+      },
+      "params": {
+        "R": 0.0038996704388409853,
+        "X": 0.027773017063736916,
+        "B": 0.05095482990145683,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_66_71_1",
+      "ports": {
+        "bus1": 66,
+        "bus2": 71
+      },
+      "params": {
+        "R": 0.0021193756256252527,
+        "X": 0.01509395707398653,
+        "B": 0.027692707255482674,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_67_75_1",
+      "ports": {
+        "bus1": 67,
+        "bus2": 75
+      },
+      "params": {
+        "R": 0.005275194067507982,
+        "X": 0.03756934031844139,
+        "B": 0.06892803311347961,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_67_136_1",
+      "ports": {
+        "bus1": 67,
+        "bus2": 136
+      },
+      "params": {
+        "R": 0.00406586704775691,
+        "X": 0.02895664982497692,
+        "B": 0.05312642827630043,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_67_136_2",
+      "ports": {
+        "bus1": 67,
+        "bus2": 136
+      },
+      "params": {
+        "R": 0.00406586704775691,
+        "X": 0.02895664982497692,
+        "B": 0.05312642827630043,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_68_73_1",
+      "ports": {
+        "bus1": 68,
+        "bus2": 73
+      },
+      "params": {
+        "R": 0.005532047711312771,
+        "X": 0.03939862549304962,
+        "B": 0.07228419929742813,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_68_85_1",
+      "ports": {
+        "bus1": 68,
+        "bus2": 85
+      },
+      "params": {
+        "R": 0.005591726861894131,
+        "X": 0.03982365503907204,
+        "B": 0.07306399941444397,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_69_70_1",
+      "ports": {
+        "bus1": 69,
+        "bus2": 70
+      },
+      "params": {
+        "R": 0.005811907816678286,
+        "X": 0.0413917601108551,
+        "B": 0.07594098150730133,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_69_87_1",
+      "ports": {
+        "bus1": 69,
+        "bus2": 87
+      },
+      "params": {
+        "R": 0.005413550417870283,
+        "X": 0.03855470195412636,
+        "B": 0.070735864341259,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_70_72_1",
+      "ports": {
+        "bus1": 70,
+        "bus2": 72
+      },
+      "params": {
+        "R": 0.007802965119481087,
+        "X": 0.055571846663951874,
+        "B": 0.10195702314376831,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_70_136_1",
+      "ports": {
+        "bus1": 70,
+        "bus2": 136
+      },
+      "params": {
+        "R": 0.001683259615674615,
+        "X": 0.011987986974418163,
+        "B": 0.021994221955537796,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_71_72_1",
+      "ports": {
+        "bus1": 71,
+        "bus2": 72
+      },
+      "params": {
+        "R": 0.0024819737300276756,
+        "X": 0.0176763404160738,
+        "B": 0.03243057429790497,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_71_74_1",
+      "ports": {
+        "bus1": 71,
+        "bus2": 74
+      },
+      "params": {
+        "R": 0.0010799641022458673,
+        "X": 0.0076913838274776936,
+        "B": 0.01411129254847765,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_71_74_2",
+      "ports": {
+        "bus1": 71,
+        "bus2": 74
+      },
+      "params": {
+        "R": 0.0010799641022458673,
+        "X": 0.0076913838274776936,
+        "B": 0.01411129254847765,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_71_82_1",
+      "ports": {
+        "bus1": 71,
+        "bus2": 82
+      },
+      "params": {
+        "R": 0.0017377255717292428,
+        "X": 0.012375887483358383,
+        "B": 0.02270589768886566,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_71_104_1",
+      "ports": {
+        "bus1": 71,
+        "bus2": 104
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_73_136_1",
+      "ports": {
+        "bus1": 73,
+        "bus2": 136
+      },
+      "params": {
+        "R": 0.005500590894371271,
+        "X": 0.03917459398508072,
+        "B": 0.07187317311763763,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_74_78_1",
+      "ports": {
+        "bus1": 74,
+        "bus2": 78
+      },
+      "params": {
+        "R": 0.0009581150952726603,
+        "X": 0.006823588628321886,
+        "B": 0.012519159354269505,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_75_78_1",
+      "ports": {
+        "bus1": 75,
+        "bus2": 78
+      },
+      "params": {
+        "R": 0.001427896786481142,
+        "X": 0.010169321671128273,
+        "B": 0.018657537177205086,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_76_77_1",
+      "ports": {
+        "bus1": 76,
+        "bus2": 77
+      },
+      "params": {
+        "R": 0.001910922583192587,
+        "X": 0.013609377667307854,
+        "B": 0.024968966841697693,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_76_78_1",
+      "ports": {
+        "bus1": 76,
+        "bus2": 78
+      },
+      "params": {
+        "R": 0.0012134453281760216,
+        "X": 0.008642022497951984,
+        "B": 0.015855418518185616,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_76_79_1",
+      "ports": {
+        "bus1": 76,
+        "bus2": 79
+      },
+      "params": {
+        "R": 0.0010293660452589393,
+        "X": 0.007331030443310738,
+        "B": 0.013450155965983868,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_77_81_1",
+      "ports": {
+        "bus1": 77,
+        "bus2": 81
+      },
+      "params": {
+        "R": 0.0020402828231453896,
+        "X": 0.014530666172504425,
+        "B": 0.026659244671463966,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_79_80_1",
+      "ports": {
+        "bus1": 79,
+        "bus2": 80
+      },
+      "params": {
+        "R": 0.0013558792416006327,
+        "X": 0.009656420908868313,
+        "B": 0.01771652325987816,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_79_81_1",
+      "ports": {
+        "bus1": 79,
+        "bus2": 81
+      },
+      "params": {
+        "R": 0.0011512620840221643,
+        "X": 0.008199159987270832,
+        "B": 0.015042903833091259,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_79_99_1",
+      "ports": {
+        "bus1": 79,
+        "bus2": 99
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_79_99_2",
+      "ports": {
+        "bus1": 79,
+        "bus2": 99
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_80_82_1",
+      "ports": {
+        "bus1": 80,
+        "bus2": 82
+      },
+      "params": {
+        "R": 0.0008733337162993848,
+        "X": 0.0062197851948440075,
+        "B": 0.011411367915570736,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_83_20_1",
+      "ports": {
+        "bus1": 83,
+        "bus2": 20
+      },
+      "params": {
+        "R": 0.006420119199901819,
+        "X": 0.04572337120771408,
+        "B": 0.08388814330101013,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_84_24_1",
+      "ports": {
+        "bus1": 84,
+        "bus2": 24
+      },
+      "params": {
+        "R": 0.0050142197869718075,
+        "X": 0.035710711032152176,
+        "B": 0.06551802903413773,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_85_84_1",
+      "ports": {
+        "bus1": 85,
+        "bus2": 84
+      },
+      "params": {
+        "R": 0.005905575584620237,
+        "X": 0.042058851569890976,
+        "B": 0.07716488093137741,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_86_95_1",
+      "ports": {
+        "bus1": 86,
+        "bus2": 95
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_87_147_1",
+      "ports": {
+        "bus1": 87,
+        "bus2": 147
+      },
+      "params": {
+        "R": 0.0046477350406348705,
+        "X": 0.03310064971446991,
+        "B": 0.06072937697172165,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_88_89_1",
+      "ports": {
+        "bus1": 88,
+        "bus2": 89
+      },
+      "params": {
+        "R": 0.00843050330877304,
+        "X": 0.06004110723733902,
+        "B": 0.11015672236680984,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_88_147_1",
+      "ports": {
+        "bus1": 88,
+        "bus2": 147
+      },
+      "params": {
+        "R": 0.0038202630821615458,
+        "X": 0.02720748819410801,
+        "B": 0.04991726204752922,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_89_26_1",
+      "ports": {
+        "bus1": 89,
+        "bus2": 26
+      },
+      "params": {
+        "R": 0.006606418173760176,
+        "X": 0.047050174325704575,
+        "B": 0.08632240444421768,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_90_25_1",
+      "ports": {
+        "bus1": 90,
+        "bus2": 25
+      },
+      "params": {
+        "R": 0.005143766291439533,
+        "X": 0.03663333132863045,
+        "B": 0.06721074879169464,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_90_91_1",
+      "ports": {
+        "bus1": 90,
+        "bus2": 91
+      },
+      "params": {
+        "R": 0.006110219284892082,
+        "X": 0.04351630061864853,
+        "B": 0.07983884960412979,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_90_105_1",
+      "ports": {
+        "bus1": 90,
+        "bus2": 105
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_91_25_1",
+      "ports": {
+        "bus1": 91,
+        "bus2": 25
+      },
+      "params": {
+        "R": 0.006109754089266062,
+        "X": 0.043512988835573196,
+        "B": 0.0798327773809433,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_92_100_1",
+      "ports": {
+        "bus1": 92,
+        "bus2": 100
+      },
+      "params": {
+        "R": 5.9566966228885576e-05,
+        "X": 0.0012581624323502183,
+        "B": 0.1388646811246872,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_93_97_1",
+      "ports": {
+        "bus1": 93,
+        "bus2": 97
+      },
+      "params": {
+        "R": 0.00047635604278184474,
+        "X": 0.010061504319310188,
+        "B": 1.1104985475540161,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_96_101_1",
+      "ports": {
+        "bus1": 96,
+        "bus2": 101
+      },
+      "params": {
+        "R": 0.000202574155991897,
+        "X": 0.0042787338607013226,
+        "B": 0.47224822640419006,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_96_102_1",
+      "ports": {
+        "bus1": 96,
+        "bus2": 102
+      },
+      "params": {
+        "R": 9.58788295974955e-05,
+        "X": 0.0020251350942999125,
+        "B": 0.22351622581481934,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_98_108_1",
+      "ports": {
+        "bus1": 98,
+        "bus2": 108
+      },
+      "params": {
+        "R": 0.0001079862704500556,
+        "X": 0.0022808662615716457,
+        "B": 0.25174152851104736,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_99_137_1",
+      "ports": {
+        "bus1": 99,
+        "bus2": 137
+      },
+      "params": {
+        "R": 0.0004422866040840745,
+        "X": 0.009341895580291748,
+        "B": 1.0310746431350708,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_103_97_1",
+      "ports": {
+        "bus1": 103,
+        "bus2": 97
+      },
+      "params": {
+        "R": 0.00018472598458174616,
+        "X": 0.0039017482195049524,
+        "B": 0.43063995242118835,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_104_99_1",
+      "ports": {
+        "bus1": 104,
+        "bus2": 99
+      },
+      "params": {
+        "R": 0.00010027238022303209,
+        "X": 0.0021179348696023226,
+        "B": 0.23375862836837769,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_104_137_1",
+      "ports": {
+        "bus1": 104,
+        "bus2": 137
+      },
+      "params": {
+        "R": 0.0003557006421033293,
+        "X": 0.007513043470680714,
+        "B": 0.8292222619056702,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_105_102_1",
+      "ports": {
+        "bus1": 105,
+        "bus2": 102
+      },
+      "params": {
+        "R": 0.0004406274820212275,
+        "X": 0.009306851774454117,
+        "B": 1.0272067785263062,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_106_94_1",
+      "ports": {
+        "bus1": 106,
+        "bus2": 94
+      },
+      "params": {
+        "R": 0.00048211374087259173,
+        "X": 0.010183117352426052,
+        "B": 1.1239210367202759,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_106_102_1",
+      "ports": {
+        "bus1": 106,
+        "bus2": 102
+      },
+      "params": {
+        "R": 0.0003305394493509084,
+        "X": 0.00698159309104085,
+        "B": 0.7705655694007874,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_107_139_1",
+      "ports": {
+        "bus1": 107,
+        "bus2": 139
+      },
+      "params": {
+        "R": 0.00027837452944368124,
+        "X": 0.005879775620996952,
+        "B": 0.648956835269928,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_108_101_1",
+      "ports": {
+        "bus1": 108,
+        "bus2": 101
+      },
+      "params": {
+        "R": 0.0003830788191407919,
+        "X": 0.008091320283710957,
+        "B": 0.8930472135543823,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_109_92_1",
+      "ports": {
+        "bus1": 109,
+        "bus2": 92
+      },
+      "params": {
+        "R": 0.00010178706725127995,
+        "X": 0.0021499276626855135,
+        "B": 0.23728971183300018,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_109_93_1",
+      "ports": {
+        "bus1": 109,
+        "bus2": 93
+      },
+      "params": {
+        "R": 0.0002961101708933711,
+        "X": 0.00625438429415226,
+        "B": 0.6903027892112732,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_109_107_1",
+      "ports": {
+        "bus1": 109,
+        "bus2": 107
+      },
+      "params": {
+        "R": 0.0004018578911200166,
+        "X": 0.008487967774271965,
+        "B": 0.9368257522583008,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_136_137_1",
+      "ports": {
+        "bus1": 136,
+        "bus2": 137
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_136_137_2",
+      "ports": {
+        "bus1": 136,
+        "bus2": 137
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_137_95_1",
+      "ports": {
+        "bus1": 137,
+        "bus2": 95
+      },
+      "params": {
+        "R": 0.0003066335339099169,
+        "X": 0.006476656999439001,
+        "B": 0.7148352265357971,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_137_124_1",
+      "ports": {
+        "bus1": 137,
+        "bus2": 124
+      },
+      "params": {
+        "R": 0.0003689764707814902,
+        "X": 0.014759058132767677,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_137_125_1",
+      "ports": {
+        "bus1": 137,
+        "bus2": 125
+      },
+      "params": {
+        "R": 0.0003689764707814902,
+        "X": 0.014759058132767677,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_137_126_1",
+      "ports": {
+        "bus1": 137,
+        "bus2": 126
+      },
+      "params": {
+        "R": 0.0003689764707814902,
+        "X": 0.014759058132767677,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_137_127_1",
+      "ports": {
+        "bus1": 137,
+        "bus2": 127
+      },
+      "params": {
+        "R": 0.0003689764707814902,
+        "X": 0.014759058132767677,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_137_128_1",
+      "ports": {
+        "bus1": 137,
+        "bus2": 128
+      },
+      "params": {
+        "R": 0.00024630542611703277,
+        "X": 0.009852216579020023,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_138_139_1",
+      "ports": {
+        "bus1": 138,
+        "bus2": 139
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_138_139_2",
+      "ports": {
+        "bus1": 138,
+        "bus2": 139
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_139_100_1",
+      "ports": {
+        "bus1": 139,
+        "bus2": 100
+      },
+      "params": {
+        "R": 0.00020613055676221848,
+        "X": 0.004353851545602083,
+        "B": 0.4805390536785126,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_139_120_1",
+      "ports": {
+        "bus1": 139,
+        "bus2": 120
+      },
+      "params": {
+        "R": 0.0005633803084492683,
+        "X": 0.022535210475325584,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_139_121_1",
+      "ports": {
+        "bus1": 139,
+        "bus2": 121
+      },
+      "params": {
+        "R": 0.0005633803084492683,
+        "X": 0.022535210475325584,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_139_122_1",
+      "ports": {
+        "bus1": 139,
+        "bus2": 122
+      },
+      "params": {
+        "R": 0.00018867924518417567,
+        "X": 0.007547169923782349,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_139_123_1",
+      "ports": {
+        "bus1": 139,
+        "bus2": 123
+      },
+      "params": {
+        "R": 0.00018867924518417567,
+        "X": 0.007547169923782349,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_140_27_1",
+      "ports": {
+        "bus1": 140,
+        "bus2": 27
+      },
+      "params": {
+        "R": 0.0026252232491970062,
+        "X": 0.01869654655456543,
+        "B": 0.03430233895778656,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_140_39_1",
+      "ports": {
+        "bus1": 140,
+        "bus2": 39
+      },
+      "params": {
+        "R": 0.0037849536165595055,
+        "X": 0.026956018060445786,
+        "B": 0.04945589229464531,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_140_135_1",
+      "ports": {
+        "bus1": 140,
+        "bus2": 135
+      },
+      "params": {
+        "R": 0.005470459349453449,
+        "X": 0.21881838142871857,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_141_3_1",
+      "ports": {
+        "bus1": 141,
+        "bus2": 3
+      },
+      "params": {
+        "R": 0.0028083326760679483,
+        "X": 0.020000630989670753,
+        "B": 0.03669492527842522,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_141_15_1",
+      "ports": {
+        "bus1": 141,
+        "bus2": 15
+      },
+      "params": {
+        "R": 0.0026641569565981627,
+        "X": 0.018973829224705696,
+        "B": 0.03481106460094452,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_141_17_1",
+      "ports": {
+        "bus1": 141,
+        "bus2": 17
+      },
+      "params": {
+        "R": 0.002468978753313422,
+        "X": 0.01758379116654396,
+        "B": 0.03226077929139137,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_141_17_2",
+      "ports": {
+        "bus1": 141,
+        "bus2": 17
+      },
+      "params": {
+        "R": 0.002468978753313422,
+        "X": 0.01758379116654396,
+        "B": 0.03226077929139137,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_141_142_1",
+      "ports": {
+        "bus1": 141,
+        "bus2": 142
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_141_142_2",
+      "ports": {
+        "bus1": 141,
+        "bus2": 142
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_142_101_1",
+      "ports": {
+        "bus1": 142,
+        "bus2": 101
+      },
+      "params": {
+        "R": 0.00017833012680057436,
+        "X": 0.003766656154766679,
+        "B": 0.41572970151901245,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_142_110_1",
+      "ports": {
+        "bus1": 142,
+        "bus2": 110
+      },
+      "params": {
+        "R": 0.00036597863072529435,
+        "X": 0.014639144763350487,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_142_111_1",
+      "ports": {
+        "bus1": 142,
+        "bus2": 111
+      },
+      "params": {
+        "R": 0.0005504183354787529,
+        "X": 0.022016732022166252,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_142_112_1",
+      "ports": {
+        "bus1": 142,
+        "bus2": 112
+      },
+      "params": {
+        "R": 0.00019391870591789484,
+        "X": 0.007756748236715794,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_143_144_1",
+      "ports": {
+        "bus1": 143,
+        "bus2": 144
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_143_144_2",
+      "ports": {
+        "bus1": 143,
+        "bus2": 144
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_144_1_1",
+      "ports": {
+        "bus1": 144,
+        "bus2": 1
+      },
+      "params": {
+        "R": 0.0001223930303240195,
+        "X": 0.004895721096545458,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_144_95_1",
+      "ports": {
+        "bus1": 144,
+        "bus2": 95
+      },
+      "params": {
+        "R": 0.0004763384349644184,
+        "X": 0.010061132721602917,
+        "B": 1.110457420349121,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_144_98_1",
+      "ports": {
+        "bus1": 144,
+        "bus2": 98
+      },
+      "params": {
+        "R": 0.00039758620550855994,
+        "X": 0.008397742174565792,
+        "B": 0.9268674254417419,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_144_101_1",
+      "ports": {
+        "bus1": 144,
+        "bus2": 101
+      },
+      "params": {
+        "R": 0.0006724250852130353,
+        "X": 0.014202838763594627,
+        "B": 1.5675817728042603,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_144_108_1",
+      "ports": {
+        "bus1": 144,
+        "bus2": 108
+      },
+      "params": {
+        "R": 0.0004484244855120778,
+        "X": 0.009471539407968521,
+        "B": 1.0453834533691406,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_144_116_1",
+      "ports": {
+        "bus1": 144,
+        "bus2": 116
+      },
+      "params": {
+        "R": 0.00036808010190725327,
+        "X": 0.01472320407629013,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_144_117_1",
+      "ports": {
+        "bus1": 144,
+        "bus2": 117
+      },
+      "params": {
+        "R": 0.00036808010190725327,
+        "X": 0.01472320407629013,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_144_118_1",
+      "ports": {
+        "bus1": 144,
+        "bus2": 118
+      },
+      "params": {
+        "R": 0.00036808010190725327,
+        "X": 0.01472320407629013,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_144_119_1",
+      "ports": {
+        "bus1": 144,
+        "bus2": 119
+      },
+      "params": {
+        "R": 0.0001223930303240195,
+        "X": 0.004895721096545458,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_145_32_1",
+      "ports": {
+        "bus1": 145,
+        "bus2": 32
+      },
+      "params": {
+        "R": 0.002415878465399146,
+        "X": 0.01720561645925045,
+        "B": 0.03156694397330284,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_145_40_1",
+      "ports": {
+        "bus1": 145,
+        "bus2": 40
+      },
+      "params": {
+        "R": 0.002182911615818739,
+        "X": 0.01554645225405693,
+        "B": 0.028522895649075508,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_145_146_1",
+      "ports": {
+        "bus1": 145,
+        "bus2": 146
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_145_146_2",
+      "ports": {
+        "bus1": 145,
+        "bus2": 146
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_146_94_1",
+      "ports": {
+        "bus1": 146,
+        "bus2": 94
+      },
+      "params": {
+        "R": 9.336359653389081e-05,
+        "X": 0.0019720084965229034,
+        "B": 0.2176526039838791,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_146_105_1",
+      "ports": {
+        "bus1": 146,
+        "bus2": 105
+      },
+      "params": {
+        "R": 0.0006116095464676619,
+        "X": 0.012918303720653057,
+        "B": 1.4258064031600952,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_146_107_1",
+      "ports": {
+        "bus1": 146,
+        "bus2": 107
+      },
+      "params": {
+        "R": 0.0003482214524410665,
+        "X": 0.007355069275945425,
+        "B": 0.8117865324020386,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_146_130_1",
+      "ports": {
+        "bus1": 146,
+        "bus2": 130
+      },
+      "params": {
+        "R": 0.0003136762825306505,
+        "X": 0.012547051534056664,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_146_131_1",
+      "ports": {
+        "bus1": 146,
+        "bus2": 131
+      },
+      "params": {
+        "R": 0.0003136762825306505,
+        "X": 0.012547051534056664,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_146_132_1",
+      "ports": {
+        "bus1": 146,
+        "bus2": 132
+      },
+      "params": {
+        "R": 0.0003136762825306505,
+        "X": 0.012547051534056664,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_146_133_1",
+      "ports": {
+        "bus1": 146,
+        "bus2": 133
+      },
+      "params": {
+        "R": 0.00013473820581566542,
+        "X": 0.005389528349041939,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_146_134_1",
+      "ports": {
+        "bus1": 146,
+        "bus2": 134
+      },
+      "params": {
+        "R": 0.00013473820581566542,
+        "X": 0.005389528349041939,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_147_148_1",
+      "ports": {
+        "bus1": 147,
+        "bus2": 148
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_148_95_1",
+      "ports": {
+        "bus1": 148,
+        "bus2": 95
+      },
+      "params": {
+        "R": 0.00047003666986711323,
+        "X": 0.009928028099238873,
+        "B": 1.095766544342041,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_148_129_1",
+      "ports": {
+        "bus1": 148,
+        "bus2": 129
+      },
+      "params": {
+        "R": 0.0007265330059453845,
+        "X": 0.029061319306492805,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_149_150_1",
+      "ports": {
+        "bus1": 149,
+        "bus2": 150
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_149_150_2",
+      "ports": {
+        "bus1": 149,
+        "bus2": 150
+      },
+      "params": {
+        "R": 0.00019999999494757503,
+        "X": 0.01600000075995922,
+        "tap": 1.0,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_150_93_1",
+      "ports": {
+        "bus1": 150,
+        "bus2": 93
+      },
+      "params": {
+        "R": 0.00027862723800353706,
+        "X": 0.005885113030672073,
+        "B": 0.6495459079742432,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_150_97_1",
+      "ports": {
+        "bus1": 150,
+        "bus2": 97
+      },
+      "params": {
+        "R": 0.0002592829696368426,
+        "X": 0.005476526916027069,
+        "B": 0.6044498682022095,
+        "tap": 1.0,
+        "phase": 0.0
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_150_113_1",
+      "ports": {
+        "bus1": 150,
+        "bus2": 113
+      },
+      "params": {
+        "R": 0.0003946952929254621,
+        "X": 0.01578781194984913,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_150_114_1",
+      "ports": {
+        "bus1": 150,
+        "bus2": 114
+      },
+      "params": {
+        "R": 0.0003946952929254621,
+        "X": 0.01578781194984913,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "Branch",
+      "id": "branch_150_115_1",
+      "ports": {
+        "bus1": 150,
+        "bus2": 115
+      },
+      "params": {
+        "R": 0.0009084302582778037,
+        "X": 0.03633720800280571,
+        "tap": 1.0199999809265137,
+        "phase": 0.0
+      },
+      "extension": {
+        "xfmr": true
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_1",
+      "ports": {
+        "bus": 1
+      },
+      "params": {
+        "Pnom": -10.981654167175293,
+        "Qnom": -1.4073988199234009,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_2",
+      "ports": {
+        "bus": 2
+      },
+      "params": {
+        "Pnom": 1.8430999517440796,
+        "Qnom": 0.5252835154533386,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_3",
+      "ports": {
+        "bus": 3
+      },
+      "params": {
+        "Pnom": 1.6551599502563477,
+        "Qnom": 0.4717206060886383,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_4",
+      "ports": {
+        "bus": 4
+      },
+      "params": {
+        "Pnom": 1.568120002746582,
+        "Qnom": 0.4469141960144043,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_5",
+      "ports": {
+        "bus": 5
+      },
+      "params": {
+        "Pnom": 1.6844600439071655,
+        "Qnom": 0.480071097612381,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_6",
+      "ports": {
+        "bus": 6
+      },
+      "params": {
+        "Pnom": 1.5688799619674683,
+        "Qnom": 0.44713079929351807,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_7",
+      "ports": {
+        "bus": 7
+      },
+      "params": {
+        "Pnom": 1.3458000421524048,
+        "Qnom": 0.38355299830436707,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_8",
+      "ports": {
+        "bus": 8
+      },
+      "params": {
+        "Pnom": 1.9539999961853027,
+        "Qnom": 0.5568900108337402,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_9",
+      "ports": {
+        "bus": 9
+      },
+      "params": {
+        "Pnom": 1.7631399631500244,
+        "Qnom": 0.5024948716163635,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_10",
+      "ports": {
+        "bus": 10
+      },
+      "params": {
+        "Pnom": 0.7272199988365173,
+        "Qnom": 0.2072577029466629,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_11",
+      "ports": {
+        "bus": 11
+      },
+      "params": {
+        "Pnom": 1.8992600440979004,
+        "Qnom": 0.5412890911102295,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_12",
+      "ports": {
+        "bus": 12
+      },
+      "params": {
+        "Pnom": 1.2530200481414795,
+        "Qnom": 0.3571107089519501,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_13",
+      "ports": {
+        "bus": 13
+      },
+      "params": {
+        "Pnom": 1.7727199792861938,
+        "Qnom": 0.5052251815795898,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_14",
+      "ports": {
+        "bus": 14
+      },
+      "params": {
+        "Pnom": 1.9917000532150269,
+        "Qnom": 0.5676345229148865,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_15",
+      "ports": {
+        "bus": 15
+      },
+      "params": {
+        "Pnom": 1.7843799591064453,
+        "Qnom": 0.5085483193397522,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_16",
+      "ports": {
+        "bus": 16
+      },
+      "params": {
+        "Pnom": 1.197700023651123,
+        "Qnom": 0.3413445055484772,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_17",
+      "ports": {
+        "bus": 17
+      },
+      "params": {
+        "Pnom": 1.6289399862289429,
+        "Qnom": 0.4642479121685028,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_18",
+      "ports": {
+        "bus": 18
+      },
+      "params": {
+        "Pnom": 1.2965799570083618,
+        "Qnom": 0.36952531337738037,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_19",
+      "ports": {
+        "bus": 19
+      },
+      "params": {
+        "Pnom": 1.6167000532150269,
+        "Qnom": 0.4607594907283783,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_20",
+      "ports": {
+        "bus": 20
+      },
+      "params": {
+        "Pnom": 0.9926000237464905,
+        "Qnom": 0.28289100527763367,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_21",
+      "ports": {
+        "bus": 21
+      },
+      "params": {
+        "Pnom": 1.800879955291748,
+        "Qnom": 0.5132508277893066,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_22",
+      "ports": {
+        "bus": 22
+      },
+      "params": {
+        "Pnom": 1.9499200582504272,
+        "Qnom": -0.994351327419281,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_23",
+      "ports": {
+        "bus": 23
+      },
+      "params": {
+        "Pnom": 1.8717800378799438,
+        "Qnom": 0.5334572792053223,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_24",
+      "ports": {
+        "bus": 24
+      },
+      "params": {
+        "Pnom": 0.607420027256012,
+        "Qnom": 0.17311470210552216,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_25",
+      "ports": {
+        "bus": 25
+      },
+      "params": {
+        "Pnom": 0.39542001485824585,
+        "Qnom": 0.11269470304250717,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_26",
+      "ports": {
+        "bus": 26
+      },
+      "params": {
+        "Pnom": 1.6177400350570679,
+        "Qnom": -1.0519585311412811,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_27",
+      "ports": {
+        "bus": 27
+      },
+      "params": {
+        "Pnom": 1.9908599853515625,
+        "Qnom": 0.5673950910568237,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_28",
+      "ports": {
+        "bus": 28
+      },
+      "params": {
+        "Pnom": 1.3112399578094482,
+        "Qnom": 0.37370339035987854,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_29",
+      "ports": {
+        "bus": 29
+      },
+      "params": {
+        "Pnom": 1.4147800207138062,
+        "Qnom": 0.403212308883667,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_30",
+      "ports": {
+        "bus": 30
+      },
+      "params": {
+        "Pnom": 1.4951000213623047,
+        "Qnom": 0.42610350251197815,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_31",
+      "ports": {
+        "bus": 31
+      },
+      "params": {
+        "Pnom": 1.5382200479507446,
+        "Qnom": 0.438392698764801,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_32",
+      "ports": {
+        "bus": 32
+      },
+      "params": {
+        "Pnom": 1.6751600503921509,
+        "Qnom": 0.4774205982685089,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_33",
+      "ports": {
+        "bus": 33
+      },
+      "params": {
+        "Pnom": 1.9909199476242065,
+        "Qnom": 0.5674121975898743,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_34",
+      "ports": {
+        "bus": 34
+      },
+      "params": {
+        "Pnom": 1.5800800323486328,
+        "Qnom": 0.45032280683517456,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_35",
+      "ports": {
+        "bus": 35
+      },
+      "params": {
+        "Pnom": 1.6604599952697754,
+        "Qnom": 0.47323110699653625,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_36",
+      "ports": {
+        "bus": 36
+      },
+      "params": {
+        "Pnom": 0.100040003657341,
+        "Qnom": 0.028511399403214455,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_37",
+      "ports": {
+        "bus": 37
+      },
+      "params": {
+        "Pnom": 0.8752599954605103,
+        "Qnom": 0.24944910407066345,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_38",
+      "ports": {
+        "bus": 38
+      },
+      "params": {
+        "Pnom": 0.4284200072288513,
+        "Qnom": 0.12209969758987427,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_39",
+      "ports": {
+        "bus": 39
+      },
+      "params": {
+        "Pnom": 0.6828799843788147,
+        "Qnom": 0.19462080299854279,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_40",
+      "ports": {
+        "bus": 40
+      },
+      "params": {
+        "Pnom": 1.8683600425720215,
+        "Qnom": 0.5324826240539551,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_41",
+      "ports": {
+        "bus": 41
+      },
+      "params": {
+        "Pnom": 1.612280011177063,
+        "Qnom": 0.4594998061656952,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_42",
+      "ports": {
+        "bus": 42
+      },
+      "params": {
+        "Pnom": 1.5594199895858765,
+        "Qnom": 0.4444347023963928,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_43",
+      "ports": {
+        "bus": 43
+      },
+      "params": {
+        "Pnom": 1.887760043144226,
+        "Qnom": 0.5380116105079651,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_44",
+      "ports": {
+        "bus": 44
+      },
+      "params": {
+        "Pnom": 1.1485999822616577,
+        "Qnom": 0.32735100388526917,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_45",
+      "ports": {
+        "bus": 45
+      },
+      "params": {
+        "Pnom": 1.9740999937057495,
+        "Qnom": 0.5626184940338135,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_46",
+      "ports": {
+        "bus": 46
+      },
+      "params": {
+        "Pnom": 0.9346200227737427,
+        "Qnom": 0.2663666903972626,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_47",
+      "ports": {
+        "bus": 47
+      },
+      "params": {
+        "Pnom": 1.8160200119018555,
+        "Qnom": 0.5175657272338867,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_48",
+      "ports": {
+        "bus": 48
+      },
+      "params": {
+        "Pnom": 0.31398001313209534,
+        "Qnom": 0.08948429673910141,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_49",
+      "ports": {
+        "bus": 49
+      },
+      "params": {
+        "Pnom": 1.9946199655532837,
+        "Qnom": 0.5684667229652405,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_50",
+      "ports": {
+        "bus": 50
+      },
+      "params": {
+        "Pnom": 1.5450600385665894,
+        "Qnom": 0.44034209847450256,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_51",
+      "ports": {
+        "bus": 51
+      },
+      "params": {
+        "Pnom": 1.7920399904251099,
+        "Qnom": 0.5107313990592957,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_52",
+      "ports": {
+        "bus": 52
+      },
+      "params": {
+        "Pnom": 1.268180012702942,
+        "Qnom": 0.3614313006401062,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_53",
+      "ports": {
+        "bus": 53
+      },
+      "params": {
+        "Pnom": 1.8431199789047241,
+        "Qnom": 0.5252891778945923,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_54",
+      "ports": {
+        "bus": 54
+      },
+      "params": {
+        "Pnom": 1.8560199737548828,
+        "Qnom": 0.5289657115936279,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_55",
+      "ports": {
+        "bus": 55
+      },
+      "params": {
+        "Pnom": 1.1262799501419067,
+        "Qnom": 0.32098978757858276,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_56",
+      "ports": {
+        "bus": 56
+      },
+      "params": {
+        "Pnom": 1.7699799537658691,
+        "Qnom": 0.5044443011283875,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_57",
+      "ports": {
+        "bus": 57
+      },
+      "params": {
+        "Pnom": 1.2965799570083618,
+        "Qnom": 0.36952531337738037,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_58",
+      "ports": {
+        "bus": 58
+      },
+      "params": {
+        "Pnom": 0.6600599884986877,
+        "Qnom": 0.1881171017885208,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_59",
+      "ports": {
+        "bus": 59
+      },
+      "params": {
+        "Pnom": 1.2151399850845337,
+        "Qnom": 0.3463149070739746,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_60",
+      "ports": {
+        "bus": 60
+      },
+      "params": {
+        "Pnom": 1.2407399415969849,
+        "Qnom": 0.35361090302467346,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_61",
+      "ports": {
+        "bus": 61
+      },
+      "params": {
+        "Pnom": 1.3173400163650513,
+        "Qnom": 0.37544190883636475,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_62",
+      "ports": {
+        "bus": 62
+      },
+      "params": {
+        "Pnom": 1.6617599725723267,
+        "Qnom": 0.4736016094684601,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_63",
+      "ports": {
+        "bus": 63
+      },
+      "params": {
+        "Pnom": 1.8543599843978882,
+        "Qnom": 0.5284926295280457,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_64",
+      "ports": {
+        "bus": 64
+      },
+      "params": {
+        "Pnom": 1.9385600090026855,
+        "Qnom": 0.5524895787239075,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_65",
+      "ports": {
+        "bus": 65
+      },
+      "params": {
+        "Pnom": 1.1873600482940674,
+        "Qnom": 0.3383975923061371,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_66",
+      "ports": {
+        "bus": 66
+      },
+      "params": {
+        "Pnom": 0.8877800107002258,
+        "Qnom": 0.2530173063278198,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_67",
+      "ports": {
+        "bus": 67
+      },
+      "params": {
+        "Pnom": 1.5414600372314453,
+        "Qnom": 0.4393160939216614,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_68",
+      "ports": {
+        "bus": 68
+      },
+      "params": {
+        "Pnom": 0.6668800115585327,
+        "Qnom": 0.1900607943534851,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_69",
+      "ports": {
+        "bus": 69
+      },
+      "params": {
+        "Pnom": 0.6474599838256836,
+        "Qnom": 0.18452610075473785,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_70",
+      "ports": {
+        "bus": 70
+      },
+      "params": {
+        "Pnom": 0.3390200138092041,
+        "Qnom": 0.09662070125341415,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_71",
+      "ports": {
+        "bus": 71
+      },
+      "params": {
+        "Pnom": 1.9785000085830688,
+        "Qnom": 0.5638725161552429,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_72",
+      "ports": {
+        "bus": 72
+      },
+      "params": {
+        "Pnom": 1.6617599725723267,
+        "Qnom": 0.4736016094684601,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_73",
+      "ports": {
+        "bus": 73
+      },
+      "params": {
+        "Pnom": 0.8792600035667419,
+        "Qnom": 0.2505891025066376,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_74",
+      "ports": {
+        "bus": 74
+      },
+      "params": {
+        "Pnom": 1.7384400367736816,
+        "Qnom": 0.49545541405677795,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_75",
+      "ports": {
+        "bus": 75
+      },
+      "params": {
+        "Pnom": 1.4692800045013428,
+        "Qnom": 0.4187448024749756,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_76",
+      "ports": {
+        "bus": 76
+      },
+      "params": {
+        "Pnom": 1.685539960861206,
+        "Qnom": 0.4803788959980011,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_77",
+      "ports": {
+        "bus": 77
+      },
+      "params": {
+        "Pnom": 1.4763200283050537,
+        "Qnom": 0.4207512140274048,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_78",
+      "ports": {
+        "bus": 78
+      },
+      "params": {
+        "Pnom": 1.7772400379180908,
+        "Qnom": 0.5065134167671204,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_79",
+      "ports": {
+        "bus": 79
+      },
+      "params": {
+        "Pnom": 1.9122799634933472,
+        "Qnom": -0.9791504740715027,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_80",
+      "ports": {
+        "bus": 80
+      },
+      "params": {
+        "Pnom": 1.6784199476242065,
+        "Qnom": 0.4783496856689453,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_81",
+      "ports": {
+        "bus": 81
+      },
+      "params": {
+        "Pnom": 1.6373800039291382,
+        "Qnom": 0.4666532874107361,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_82",
+      "ports": {
+        "bus": 82
+      },
+      "params": {
+        "Pnom": 1.5256199836730957,
+        "Qnom": 0.43480169773101807,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_83",
+      "ports": {
+        "bus": 83
+      },
+      "params": {
+        "Pnom": 0.8350800275802612,
+        "Qnom": 0.23799780011177063,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_84",
+      "ports": {
+        "bus": 84
+      },
+      "params": {
+        "Pnom": 0.6718400120735168,
+        "Qnom": 0.19147439301013947,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_85",
+      "ports": {
+        "bus": 85
+      },
+      "params": {
+        "Pnom": 0.6487399935722351,
+        "Qnom": 0.18489089608192444,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_86",
+      "ports": {
+        "bus": 86
+      },
+      "params": {
+        "Pnom": 1.8689600229263306,
+        "Qnom": 0.5326536297798157,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_87",
+      "ports": {
+        "bus": 87
+      },
+      "params": {
+        "Pnom": 0.9614599943161011,
+        "Qnom": 0.2740161120891571,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_88",
+      "ports": {
+        "bus": 88
+      },
+      "params": {
+        "Pnom": 0.6571000218391418,
+        "Qnom": 0.18727350234985352,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_89",
+      "ports": {
+        "bus": 89
+      },
+      "params": {
+        "Pnom": 1.7948800325393677,
+        "Qnom": 0.5115407705307007,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_90",
+      "ports": {
+        "bus": 90
+      },
+      "params": {
+        "Pnom": 1.9893200397491455,
+        "Qnom": 0.5669562220573425,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_91",
+      "ports": {
+        "bus": 91
+      },
+      "params": {
+        "Pnom": 0.6564800143241882,
+        "Qnom": 0.18709680438041687,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_110",
+      "ports": {
+        "bus": 110
+      },
+      "params": {
+        "Pnom": -3.667128086090088,
+        "Qnom": -1.1392477750778198,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_111",
+      "ports": {
+        "bus": 111
+      },
+      "params": {
+        "Pnom": -2.438310146331787,
+        "Qnom": -0.757497251033783,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_112",
+      "ports": {
+        "bus": 112
+      },
+      "params": {
+        "Pnom": -6.920891284942627,
+        "Qnom": -2.150078058242798,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_113",
+      "ports": {
+        "bus": 113
+      },
+      "params": {
+        "Pnom": -3.400320529937744,
+        "Qnom": -1.0256733894348145,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_114",
+      "ports": {
+        "bus": 114
+      },
+      "params": {
+        "Pnom": -3.400320529937744,
+        "Qnom": -1.0256733894348145,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_115",
+      "ports": {
+        "bus": 115
+      },
+      "params": {
+        "Pnom": -1.4773732423782349,
+        "Qnom": -0.4456351697444916,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_116",
+      "ports": {
+        "bus": 116
+      },
+      "params": {
+        "Pnom": -3.6461920738220215,
+        "Qnom": -0.46785032749176025,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_117",
+      "ports": {
+        "bus": 117
+      },
+      "params": {
+        "Pnom": -3.6461920738220215,
+        "Qnom": -0.46785032749176025,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_118",
+      "ports": {
+        "bus": 118
+      },
+      "params": {
+        "Pnom": -3.6461920738220215,
+        "Qnom": -0.46785032749176025,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_119",
+      "ports": {
+        "bus": 119
+      },
+      "params": {
+        "Pnom": -10.965415000915527,
+        "Qnom": -1.4069950580596924,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_120",
+      "ports": {
+        "bus": 120
+      },
+      "params": {
+        "Pnom": -2.3822102546691895,
+        "Qnom": -0.562506377696991,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_121",
+      "ports": {
+        "bus": 121
+      },
+      "params": {
+        "Pnom": -2.3822102546691895,
+        "Qnom": -0.562506377696991,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_122",
+      "ports": {
+        "bus": 122
+      },
+      "params": {
+        "Pnom": -7.11307954788208,
+        "Qnom": -1.6795965433120728,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_123",
+      "ports": {
+        "bus": 123
+      },
+      "params": {
+        "Pnom": -7.11307954788208,
+        "Qnom": -1.6795965433120728,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_124",
+      "ports": {
+        "bus": 124
+      },
+      "params": {
+        "Pnom": -3.637333631515503,
+        "Qnom": -1.075797438621521,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_125",
+      "ports": {
+        "bus": 125
+      },
+      "params": {
+        "Pnom": -3.637333631515503,
+        "Qnom": -1.075797438621521,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_126",
+      "ports": {
+        "bus": 126
+      },
+      "params": {
+        "Pnom": -3.637333631515503,
+        "Qnom": -1.075797438621521,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_127",
+      "ports": {
+        "bus": 127
+      },
+      "params": {
+        "Pnom": -3.637333631515503,
+        "Qnom": -1.075797438621521,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_128",
+      "ports": {
+        "bus": 128
+      },
+      "params": {
+        "Pnom": -5.448887348175049,
+        "Qnom": -1.6115922927856445,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_129",
+      "ports": {
+        "bus": 129
+      },
+      "params": {
+        "Pnom": -1.847253441810608,
+        "Qnom": -0.4544574022293091,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_130",
+      "ports": {
+        "bus": 130
+      },
+      "params": {
+        "Pnom": -4.2785844802856445,
+        "Qnom": -0.6720574498176575,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_131",
+      "ports": {
+        "bus": 131
+      },
+      "params": {
+        "Pnom": -4.2785844802856445,
+        "Qnom": -0.6720574498176575,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_132",
+      "ports": {
+        "bus": 132
+      },
+      "params": {
+        "Pnom": -4.2785844802856445,
+        "Qnom": -0.6720574498176575,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_133",
+      "ports": {
+        "bus": 133
+      },
+      "params": {
+        "Pnom": -9.960728645324707,
+        "Qnom": -1.5645784139633179,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_134",
+      "ports": {
+        "bus": 134
+      },
+      "params": {
+        "Pnom": -9.960728645324707,
+        "Qnom": -1.5645784139633179,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    },
+    {
+      "class": "LoadZIP",
+      "id": "load_135",
+      "ports": {
+        "bus": 135
+      },
+      "params": {
+        "Pnom": -0.24533414840698242,
+        "Qnom": -0.17358732223510742,
+        "alphaI": 0.0,
+        "alphaP": 0.0
+      }
+    }
+  ]
+}
